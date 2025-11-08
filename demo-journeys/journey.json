@@ -1,0 +1,40 @@
+{
+  "steps": [
+    {
+      "step_no": 1,
+      "name": "Raw Material",
+      "description": "Procurement of raw materials from approved suppliers",
+      "evidence": "invoices/raw-material.pdf"
+    },
+    {
+      "step_no": 2,
+      "name": "Production",
+      "description": "Manufacturing process with IoT/PLC logs",
+      "evidence": "logs/production-log.csv"
+    },
+    {
+      "step_no": 3,
+      "name": "Dealer Sale",
+      "description": "Sale to dealer with auto GST invoice",
+      "evidence": "invoices/dealer-sale.pdf"
+    },
+    {
+      "step_no": 4,
+      "name": "Tax Auto-Apply",
+      "description": "System auto-applies SGST/CGST/IGST based on location",
+      "evidence": "reports/tax-application.json"
+    },
+    {
+      "step_no": 5,
+      "name": "Warranty Claim",
+      "description": "Customer warranty claim processed via service module",
+      "evidence": "tickets/warranty-claim-001.json"
+    },
+    {
+      "step_no": 6,
+      "name": "Recycling",
+      "description": "Battery returned for recycling, carbon footprint updated",
+      "evidence": "reports/recycling-report.pdf"
+    }
+  ]
+}
