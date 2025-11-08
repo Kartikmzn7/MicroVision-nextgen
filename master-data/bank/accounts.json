@@ -1,0 +1,20 @@
+[
+  {
+    "account_type": "Current",
+    "account_number": "1234567890",
+    "ifsc": "SBIN0001234",
+    "bank_name": "State Bank of India",
+    "branch": "Ghaziabad Main",
+    "linked_pan": "ABCDE1234F",
+    "linked_gstin": "09ABCDE1234F1Z5"
+  },
+  {
+    "account_type": "Savings",
+    "account_number": "9876543210",
+    "ifsc": "HDFC0005678",
+    "bank_name": "HDFC Bank",
+    "branch": "Delhi NCR",
+    "linked_pan": "ABCDE1234F",
+    "linked_gstin": "09ABCDE1234F1Z5"
+  }
+]
