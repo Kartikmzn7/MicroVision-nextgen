@@ -1,0 +1,22 @@
+[
+  {
+    "battery_id": "BAT-001",
+    "chemistry": "Lithium-Ion",
+    "capacity_ah": 150,
+    "voltage_v": 48,
+    "warranty_months": 36,
+    "carbon_footprint_kgco2": 12.5,
+    "recycling_rate_percent": 85,
+    "manufacture_date": "2025-01-15"
+  },
+  {
+    "battery_id": "BAT-002",
+    "chemistry": "Lead-Acid",
+    "capacity_ah": 100,
+    "voltage_v": 12,
+    "warranty_months": 24,
+    "carbon_footprint_kgco2": 20.0,
+    "recycling_rate_percent": 95,
+    "manufacture_date": "2025-02-01"
+  }
+]
