@@ -1,0 +1,8 @@
+{
+  "name": "ABC Raw Materials Pvt Ltd",
+  "gstin": "09ABCDE1234F1Z5",
+  "iec": "DGFT-1234567",
+  "state": "Tamil Nadu",
+  "credit_terms": "Net 30",
+  "compliance": ["RoHS", "REACH"]
+}
