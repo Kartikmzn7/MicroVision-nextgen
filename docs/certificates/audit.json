@@ -1,0 +1,23 @@
+{
+  "iso_certificates": ["ISO 9001", "ISO 14001", "ISO 27001", "ISO 45001"],
+  "factory_license": {
+    "license_no": "FAC-UP-2025-001",
+    "issued_by": "Factories Act Authority",
+    "valid_till": "2030-12-31"
+  },
+  "pollution_noc": {
+    "noc_no": "PCB-UP-2025-009",
+    "issued_by": "Pollution Control Board",
+    "valid_till": "2028-06-30"
+  },
+  "fire_safety_noc": {
+    "noc_no": "FIRE-UP-2025-015",
+    "issued_by": "Fire Department",
+    "valid_till": "2027-03-31"
+  },
+  "auditor_auto_fill": {
+    "bank": "State Bank of India",
+    "gst_audit": "Enabled",
+    "last_audit_date": "2025-03-01"
+  }
+}
