@@ -1,0 +1,11 @@
+{
+  "name": "Kartik Choudhary",
+  "designation": "CEO",
+  "pan": "ABCDE1234F",
+  "aadhaar": "XXXX-XXXX-XXXX",
+  "din": "01234567",
+  "email": "ceo@example.com",
+  "phone": "+91-98XXXXXXXX",
+  "address": "Ghaziabad, Uttar Pradesh, 201001",
+  "iso_roles": ["ISO 9001 MR", "ISO 27001 SO"]
+}
