@@ -1,0 +1,22 @@
+{
+  "production_kpis": {
+    "oee_percent": 92,
+    "first_pass_yield_percent": 95,
+    "downtime_hours": 12
+  },
+  "financial_kpis": {
+    "gross_margin_percent": 28,
+    "tax_liability_inr": 450000,
+    "cash_flow_inr": 1200000
+  },
+  "marketing_kpis": {
+    "customer_acquisition_cost_inr": 1500,
+    "roas_percent": 320,
+    "lifetime_value_inr": 25000
+  },
+  "sustainability_kpis": {
+    "carbon_footprint_kgco2": 12.5,
+    "recycling_rate_percent": 90,
+    "renewable_energy_percent": 40
+  }
+}
