@@ -1,0 +1,49 @@
+{
+  "performance_tests": [
+    {
+      "test_id": "PT-001",
+      "battery_id": "BAT-001",
+      "result": "Pass",
+      "date": "2025-03-01",
+      "report_file": "tests/PT-001-report.pdf"
+    },
+    {
+      "test_id": "PT-002",
+      "battery_id": "BAT-002",
+      "result": "Pass",
+      "date": "2025-03-05",
+      "report_file": "tests/PT-002-report.pdf"
+    }
+  ],
+  "dr_drills": [
+    {
+      "drill_id": "DR-001",
+      "type": "Fire Safety",
+      "date": "2025-02-20",
+      "log_file": "logs/DR-001-fire.log"
+    },
+    {
+      "drill_id": "DR-002",
+      "type": "Data Recovery",
+      "date": "2025-02-25",
+      "log_file": "logs/DR-002-dr.log"
+    }
+  ],
+  "training_records": [
+    {
+      "worker_name": "Ravi Kumar",
+      "iti_certificate_no": "ITI-IND-2022-0001",
+      "completion_date": "2025-01-12"
+    },
+    {
+      "worker_name": "Meena Singh",
+      "iti_certificate_no": "ITI-IND-2021-0007",
+      "completion_date": "2025-02-01"
+    }
+  ],
+  "adoption_kpis": {
+    "modules_used_percent": 92,
+    "tickets_closed_percent": 88,
+    "training_completion_percent": 100
+  }
+}
