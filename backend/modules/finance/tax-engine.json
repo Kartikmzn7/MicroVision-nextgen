@@ -1,0 +1,28 @@
+{
+  "tax_rules": [
+    {
+      "state": "Uttar Pradesh",
+      "sgst": 9,
+      "cgst": 9,
+      "igst": 18,
+      "levies": ["Professional Tax", "Electricity Duty"],
+      "compliance_sync": ["GSTR-1", "GSTR-3B", "E-Invoice", "E-Way Bill"]
+    },
+    {
+      "state": "Delhi",
+      "sgst": 0,
+      "cgst": 9,
+      "igst": 18,
+      "levies": ["Professional Tax"],
+      "compliance_sync": ["GSTR-1", "GSTR-3B", "E-Invoice"]
+    },
+    {
+      "state": "Tamil Nadu",
+      "sgst": 9,
+      "cgst": 9,
+      "igst": 18,
+      "levies": ["Electricity Duty"],
+      "compliance_sync": ["GSTR-1", "GSTR-3B", "E-Invoice", "E-Way Bill"]
+    }
+  ]
+}
