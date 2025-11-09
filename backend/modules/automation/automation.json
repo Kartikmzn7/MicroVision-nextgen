@@ -1,50 +1,54 @@
 {
-  "iot_logs": [
-    {
-      "log_id": "IOT-001",
-      "machine": "Battery Assembly Line",
-      "timestamp": "2025-03-10T10:30:00",
-      "data_file": "iot/IOT-001-log.csv"
-    },
-    {
-      "log_id": "IOT-002",
-      "machine": "Charging Station",
-      "timestamp": "2025-03-12T14:45:00",
-      "data_file": "iot/IOT-002-log.csv"
-    }
-  ],
   "ai_predictions": [
     {
       "prediction_id": "AI-001",
-      "model": "Failure Prediction Model v1.2",
-      "battery_id": "BAT-001",
-      "predicted_issue": "Thermal Runaway Risk",
-      "confidence_percent": 87,
-      "report_file": "ai/AI-001-report.pdf"
+      "module": "Production",
+      "use_case": "Predictive Maintenance",
+      "input_data": "IoT sensor logs from battery assembly line",
+      "prediction": "Machine downtime risk in next 7 days",
+      "confidence": "92%",
+      "generated_on": "2025-03-25",
+      "report_file": "automation/AI-001-predictive-maintenance.pdf"
     },
     {
       "prediction_id": "AI-002",
-      "model": "Demand Forecast Model v2.0",
-      "forecast_period": "Q2 2025",
-      "predicted_sales_units": 12000,
-      "confidence_percent": 92,
-      "report_file": "ai/AI-002-forecast.pdf"
-    }
-  ],
-  "alerts": [
-    {
-      "alert_id": "AL-001",
-      "type": "Safety",
-      "message": "Temperature exceeded threshold in Assembly Line",
-      "date": "2025-03-15",
-      "status": "Resolved"
+      "module": "Finance",
+      "use_case": "Cash Flow Forecasting",
+      "input_data": "ERP financial transactions, GST filings",
+      "prediction": "Positive cash flow ₹15,00,000 for Q2 2025",
+      "confidence": "88%",
+      "generated_on": "2025-04-01",
+      "report_file": "automation/AI-002-cashflow-forecast.pdf"
     },
     {
-      "alert_id": "AL-002",
-      "type": "Compliance",
-      "message": "GST filing deadline approaching",
-      "date": "2025-03-28",
-      "status": "Open"
+      "prediction_id": "AI-003",
+      "module": "Marketing",
+      "use_case": "Customer Churn Prediction",
+      "input_data": "Dealer sales + service tickets",
+      "prediction": "5% churn risk in Tier-2 dealers",
+      "confidence": "85%",
+      "generated_on": "2025-04-10",
+      "report_file": "automation/AI-003-churn-analysis.pdf"
+    }
+  ],
+  "automation_rules": [
+    {
+      "rule_id": "AR-001",
+      "trigger": "GST filing deadline missed",
+      "action": "Send auto-alert to Finance Head",
+      "status": "Active"
+    },
+    {
+      "rule_id": "AR-002",
+      "trigger": "Warranty claim unresolved > 7 days",
+      "action": "Escalate to Service Manager",
+      "status": "Active"
+    },
+    {
+      "rule_id": "AR-003",
+      "trigger": "OEE drops below 85%",
+      "action": "Notify Production Supervisor",
+      "status": "Active"
     }
   ]
 }
