@@ -5,10 +5,12 @@ import './index.css'; // ensure styles are applied
 function App() {
   return (
     <div className="container">
-      <div className="page-title">
+      <header className="page-title">
         MicroVision ERP Dashboard <span className="badge">LIVE</span>
-      </div>
-      <Dashboard />
+      </header>
+      <main>
+        <Dashboard />
+      </main>
     </div>
   );
 }
