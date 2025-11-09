@@ -1,0 +1,34 @@
+{
+  "dashboard": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "production_kpis": {
+      "oee": "92%",
+      "first_pass_yield": "95%",
+      "downtime_hours": 12
+    },
+    "financial_kpis": {
+      "gross_margin": "45%",
+      "cash_flow": "+12%",
+      "roic": "15%"
+    },
+    "marketing_kpis": {
+      "roas": "320%",
+      "cac": "₹120",
+      "conversion_rate": "11%"
+    },
+    "sustainability_kpis": {
+      "carbon_footprint": "1.6 kg CO2/unit",
+      "recycling_rate": "90%",
+      "energy_efficiency": "A+"
+    },
+    "evidence_files": [
+      "dashboard/production-kpi-2025Q1.pdf",
+      "dashboard/financial-kpi-2025Q1.pdf",
+      "dashboard/marketing-kpi-2025Q1.pdf",
+      "dashboard/sustainability-kpi-2025Q1.pdf"
+    ],
+    "status": "Recruiter-Ready",
+    "last_updated": "2025-11-09"
+  }
+}
