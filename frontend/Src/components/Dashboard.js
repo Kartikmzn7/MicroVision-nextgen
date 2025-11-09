@@ -1,44 +1,65 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-function Dashboard() {
-  const [financeData, setFinanceData] = useState({});
-  const [hrData, setHrData] = useState({});
-  const [inventoryData, setInventoryData] = useState({});
-  const [journeyData, setJourneyData] = useState({});
+// Custom hook for fetching data with loading/error states
+function useFetch(url) {
+  const [data, setData] = useState(null);
+  const [state, setState] = useState({ loading: true, error: null });
 
   useEffect(() => {
-    axios.get('http://localhost:5000/finance').then(res => setFinanceData(res.data));
-    axios.get('http://localhost:5000/hr').then(res => setHrData(res.data));
-    axios.get('http://localhost:5000/inventory').then(res => setInventoryData(res.data));
-    axios.get('http://localhost:5000/journey').then(res => setJourneyData(res.data));
-  }, []);
+    axios.get(url)
+      .then(res => {
+        setData(res.data);
+        setState({ loading: false, error: null });
+      })
+      .catch(err => {
+        setState({ loading: false, error: err.message || 'Error' });
+      });
+  }, [url]);
+
+  return { data, ...state };
+}
+
+// Reusable Card component
+function Card({ title, subtitle, children }) {
+  return (
+    <div className="card">
+      <h2>{title}</h2>
+      {subtitle && <div className="sub">{subtitle}</div>}
+      {children}
+    </div>
+  );
+}
+
+function Dashboard() {
+  const finance = useFetch('http://localhost:5000/finance');
+  const hr = useFetch('http://localhost:5000/hr');
+  const inventory = useFetch('http://localhost:5000/inventory');
+  const journey = useFetch('http://localhost:5000/journey');
+
+  const renderBlock = (state) => {
+    if (state.loading) return <div className="sub">Loading…</div>;
+    if (state.error) return <div className="sub" style={{ color: '#fca5a5' }}>Error: {state.error}</div>;
+    return <pre>{JSON.stringify(state.data, null, 2)}</pre>;
+  };
 
   return (
     <div className="grid">
-      <div className="card">
-        <h2>Finance</h2>
-        <div className="sub">Live JSON from backend</div>
-        <pre>{JSON.stringify(financeData, null, 2)}</pre>
-      </div>
+      <Card title="Finance" subtitle="Live JSON from backend">
+        {renderBlock(finance)}
+      </Card>
 
-      <div className="card">
-        <h2>HR</h2>
-        <div className="sub">Attendance and leave data</div>
-        <pre>{JSON.stringify(hrData, null, 2)}</pre>
-      </div>
+      <Card title="HR" subtitle="Attendance and leave data">
+        {renderBlock(hr)}
+      </Card>
 
-      <div className="card">
-        <h2>Inventory</h2>
-        <div className="sub">Stock levels and valuation</div>
-        <pre>{JSON.stringify(inventoryData, null, 2)}</pre>
-      </div>
+      <Card title="Inventory" subtitle="Stock levels and valuation">
+        {renderBlock(inventory)}
+      </Card>
 
-      <div className="card">
-        <h2>Journey</h2>
-        <div className="sub">Order → Production → Invoice → Dispatch → Payment</div>
-        <pre>{JSON.stringify(journeyData, null, 2)}</pre>
-      </div>
+      <Card title="Journey" subtitle="Order → Production → Invoice → Dispatch → Payment">
+        {renderBlock(journey)}
+      </Card>
     </div>
   );
 }
