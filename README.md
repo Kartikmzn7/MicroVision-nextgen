@@ -50,6 +50,8 @@ It integrates **finance, production, service, governance, automation, compliance
 ✅ Demo Journey: Raw Material → Recycling
 ✅ Recruiter-ready structure with authentic evidence
 
+![ERP Recruiter Banner](linkedin-banner.png)
+
 🔗 GitHub: github.com/kartik-choudharyaktu/MicroVision-nextgen
 
 Built with Spring Boot, React, MySQL — designed for real-world deployment and legacy impact 💼⚡
