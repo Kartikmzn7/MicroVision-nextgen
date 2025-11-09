@@ -1,52 +1,48 @@
 {
-  "training_records": [
-    {
-      "training_id": "TR-001",
-      "topic": "ISO 9001 Quality Management",
-      "date": "2025-02-15",
-      "trainer": "Bureau Veritas",
-      "status": "Completed",
-      "certificate_file": "legacy/TR-001-iso9001.pdf"
+  "legacy_evidence": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "certifications": [
+      {
+        "certificate_id": "ISO-9001",
+        "name": "Quality Management System",
+        "issuer": "International Organization for Standardization",
+        "file": "legacy/TR-001-iso9001.pdf"
+      },
+      {
+        "certificate_id": "ISO-14001",
+        "name": "Environmental Management System",
+        "issuer": "International Organization for Standardization",
+        "file": "legacy/TR-002-iso14001.pdf"
+      }
+    ],
+    "recycling_proof": [
+      {
+        "record_id": "REC-001",
+        "description": "Battery recycling compliance",
+        "rate": "90%",
+        "file": "legacy/REC-001-recycling.pdf"
+      }
+    ],
+    "battery_passport": {
+      "passport_id": "BP-001",
+      "description": "Digital Battery Passport Compliance",
+      "issuer": "Govt of India",
+      "file": "legacy/BP-001-passport.pdf"
     },
-    {
-      "training_id": "TR-002",
-      "topic": "Fire Safety & Emergency Response",
-      "date": "2025-03-05",
-      "trainer": "Ghaziabad Fire Dept",
-      "status": "Completed",
-      "certificate_file": "legacy/TR-002-fire-safety.pdf"
-    }
-  ],
-  "recycling_records": [
-    {
-      "record_id": "REC-001",
-      "batch": "Lithium-Ion Scrap March 2025",
-      "quantity_kg": 1200,
-      "method": "Authorized Recycler",
-      "certificate_file": "legacy/REC-001-recycling.pdf"
+    "audit_controls": {
+      "certificate_validation": "enabled",
+      "recycling_traceability": "enabled",
+      "passport_verification": "enabled",
+      "audit_trail": "enabled"
     },
-    {
-      "record_id": "REC-002",
-      "batch": "Lead-Acid Scrap April 2025",
-      "quantity_kg": 800,
-      "method": "In-house Recycling",
-      "certificate_file": "legacy/REC-002-recycling.pdf"
-    }
-  ],
-  "safety_records": [
-    {
-      "safety_id": "SAFE-001",
-      "inspection": "PCB NOC",
-      "issued_by": "Pollution Control Board",
-      "valid_till": "2026-12-31",
-      "file": "legacy/SAFE-001-pcb-noc.pdf"
-    },
-    {
-      "safety_id": "SAFE-002",
-      "inspection": "Fire Safety License",
-      "issued_by": "Ghaziabad Fire Dept",
-      "valid_till": "2026-06-30",
-      "file": "legacy/SAFE-002-fire-license.pdf"
-    }
-  ]
+    "evidence_files": [
+      "legacy/TR-001-iso9001.pdf",
+      "legacy/TR-002-iso14001.pdf",
+      "legacy/REC-001-recycling.pdf",
+      "legacy/BP-001-passport.pdf"
+    ],
+    "status": "Audit-Ready",
+    "last_updated": "2025-11-09"
+  }
 }
