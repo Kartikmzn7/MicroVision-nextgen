@@ -1,10 +1,13 @@
 import React from 'react';
 import Dashboard from './components/Dashboard';
+import './index.css'; // ensure styles are applied
 
 function App() {
   return (
-    <div>
-      <h1>MicroVision ERP Dashboard</h1>
+    <div className="container">
+      <div className="page-title">
+        MicroVision ERP Dashboard <span className="badge">LIVE</span>
+      </div>
       <Dashboard />
     </div>
   );
