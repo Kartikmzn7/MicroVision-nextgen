@@ -1,0 +1,35 @@
+{
+  "index": {
+    "master_data": [
+      "partners/suppliers.json",
+      "locations/factory.json",
+      "bank/accounts.json",
+      "battery/battery.json"
+    ],
+    "modules": [
+      "finance/tax-engine.json",
+      "service/service.json",
+      "governance/governance.json",
+      "automation/automation.json"
+    ],
+    "evidence": [
+      "certificates/audit.json",
+      "evidence/training.json",
+      "legacy/evidence.json"
+    ],
+    "journeys": [
+      "demo-journeys/journey.json"
+    ],
+    "dashboards": [
+      "dashboards/kpis.json"
+    ],
+    "presentation": [
+      "presentation/recruiter.json"
+    ],
+    "audit_binder": [
+      "audit/binder.json"
+    ]
+  },
+  "status": "ERP system complete, audit-ready, recruiter-ready",
+  "last_updated": "2025-11-09"
+}
