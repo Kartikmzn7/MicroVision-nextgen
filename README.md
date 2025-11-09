@@ -31,3 +31,9 @@ This repository contains a complete ERP blueprint for battery manufacturing, ali
 3. **Use tax engine** for on-the-spot invoicing and compliance sync.
 4. **Upload certificates and evidence** into /docs when available.
 5. **Run demo journey** and capture screenshots/videos in /demo-journeys.
+
+
+
+## 📂 Repository Structure Diagram
+
+![ERP Repo Structure](repo-structure.png)
