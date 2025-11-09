@@ -1,58 +1,60 @@
 {
+  "dealer_sales": [
+    {
+      "sale_id": "DS-001",
+      "dealer_name": "Sharma Batteries",
+      "location": "Delhi",
+      "product_id": "BAT-001",
+      "quantity": 50,
+      "sale_date": "2025-04-12",
+      "gst_applied": "CGST+SGST",
+      "invoice_file": "service/DS-001-invoice.pdf"
+    },
+    {
+      "sale_id": "DS-002",
+      "dealer_name": "Rathore Energy",
+      "location": "Jaipur",
+      "product_id": "BAT-002",
+      "quantity": 30,
+      "sale_date": "2025-04-15",
+      "gst_applied": "IGST",
+      "invoice_file": "service/DS-002-invoice.pdf"
+    }
+  ],
   "warranty_claims": [
     {
       "claim_id": "WC-001",
-      "battery_id": "BAT-001",
-      "customer_name": "Suresh Gupta",
-      "issue": "Reduced backup time",
-      "claim_date": "2025-03-25",
-      "status": "Resolved",
-      "resolution_file": "claims/WC-001-resolution.pdf"
+      "customer_name": "Amit Verma",
+      "product_id": "BAT-001",
+      "purchase_date": "2025-01-10",
+      "claim_date": "2025-04-20",
+      "issue": "Battery not charging",
+      "status": "Approved",
+      "resolution_file": "service/WC-001-resolution.pdf"
     },
     {
       "claim_id": "WC-002",
-      "battery_id": "BAT-002",
-      "customer_name": "Meena Singh",
-      "issue": "Charging failure",
-      "claim_date": "2025-04-02",
+      "customer_name": "Neha Singh",
+      "product_id": "BAT-002",
+      "purchase_date": "2025-02-05",
+      "claim_date": "2025-05-01",
+      "issue": "Low backup",
       "status": "Pending",
       "resolution_file": null
     }
   ],
-  "service_tickets": [
+  "service_rules": [
     {
-      "ticket_id": "ST-001",
-      "raised_by": "Dealer - Delhi",
-      "issue": "ERP invoice mismatch",
-      "date": "2025-03-28",
-      "status": "Closed",
-      "log_file": "tickets/ST-001-log.json"
+      "rule_id": "SR-001",
+      "trigger": "Warranty claim approved",
+      "action": "Generate replacement order",
+      "status": "Active"
     },
     {
-      "ticket_id": "ST-002",
-      "raised_by": "Dealer - Ghaziabad",
-      "issue": "Warranty claim not syncing",
-      "date": "2025-04-03",
-      "status": "Open",
-      "log_file": "tickets/ST-002-log.json"
-    }
-  ],
-  "recycling_requests": [
-    {
-      "request_id": "RR-001",
-      "battery_id": "BAT-002",
-      "customer_name": "Meena Singh",
-      "date": "2025-04-01",
-      "status": "Pending",
-      "report_file": "recycling/RR-001-report.pdf"
-    },
-    {
-      "request_id": "RR-002",
-      "battery_id": "BAT-003",
-      "customer_name": "Ravi Kumar",
-      "date": "2025-04-06",
-      "status": "Completed",
-      "report_file": "recycling/RR-002-report.pdf"
+      "rule_id": "SR-002",
+      "trigger": "Dealer sale recorded",
+      "action": "Auto-apply GST logic",
+      "status": "Active"
     }
   ]
 }
