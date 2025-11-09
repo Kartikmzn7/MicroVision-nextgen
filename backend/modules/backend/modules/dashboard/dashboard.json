@@ -1,0 +1,26 @@
+{
+  "production": {
+    "oee_percent": 92,
+    "first_pass_yield_percent": 95,
+    "downtime_hours": 12,
+    "report_file": "dashboard/production-kpi-2025Q1.pdf"
+  },
+  "financial": {
+    "gross_margin_percent": 28,
+    "cash_flow_percent": 12,
+    "roic_percent": 15,
+    "audit_file": "dashboard/financial-kpi-2025Q1.pdf"
+  },
+  "marketing": {
+    "roas_percent": 320,
+    "cac_ratio": 1.5,
+    "active_campaigns": 2,
+    "report_file": "dashboard/marketing-kpi-2025Q1.pdf"
+  },
+  "sustainability": {
+    "carbon_footprint_kgco2": 12.5,
+    "recycling_rate_percent": 90,
+    "energy_efficiency_index": "A+",
+    "certificate_file": "dashboard/sustainability-kpi-2025Q1.pdf"
+  }
+}
