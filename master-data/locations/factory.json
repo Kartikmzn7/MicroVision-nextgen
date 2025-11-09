@@ -1,8 +1,27 @@
 {
-  "factory_name": "Ghaziabad Battery Plant",
-  "address": "Site 4, Ghaziabad, Uttar Pradesh",
-  "pin": "201001",
-  "lat": 28.669,
-  "lng": 77.453,
-  "licenses": ["Factories Act License", "PCB NOC", "Fire Safety NOC"]
+  "site_id": "00-01-11",
+  "address": {
+    "site": "Ghaziabad Battery Plant",
+    "address": "Site 4, Ghaziabad, Uttar Pradesh",
+    "pincode": "201001",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 28.6754,
+    "lng": 77.453,
+    "licenses": [
+      "Factories Act License",
+      "PCB NOC",
+      "Fire Safety NOC"
+    ]
+  },
+  "battery_info": {
+    "battery_id": "BAT-002",
+    "chemistry": "Lead-Acid",
+    "capacity_ah": 180,
+    "voltage_v": 12,
+    "weight_kg": 25,
+    "carbon_footprint_kgco2": 12.5,
+    "recycling_rate_percent": 85,
+    "manufacture_date": "2025-01-15"
+  }
 }
