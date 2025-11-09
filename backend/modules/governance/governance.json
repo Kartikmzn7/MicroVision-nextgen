@@ -1,0 +1,50 @@
+{
+  "board_meetings": [
+    {
+      "meeting_id": "BM-001",
+      "date": "2025-03-05",
+      "agenda": "Quarterly performance review and compliance updates",
+      "minutes_file": "meetings/BM-001-minutes.pdf",
+      "approved_by": ["CEO", "CFO", "Compliance Officer"]
+    },
+    {
+      "meeting_id": "BM-002",
+      "date": "2025-06-10",
+      "agenda": "Expansion plan and sustainability targets",
+      "minutes_file": "meetings/BM-002-minutes.pdf",
+      "approved_by": ["CEO", "Board Members"]
+    }
+  ],
+  "compliance_logs": [
+    {
+      "log_id": "CL-001",
+      "date": "2025-03-15",
+      "compliance_type": "GST Filing",
+      "status": "Submitted",
+      "file": "compliance/GST-2025-03.pdf"
+    },
+    {
+      "log_id": "CL-002",
+      "date": "2025-04-01",
+      "compliance_type": "Factory Safety Audit",
+      "status": "Passed",
+      "file": "compliance/factory-safety-2025.pdf"
+    }
+  ],
+  "approvals": [
+    {
+      "approval_id": "AP-001",
+      "request_type": "New Supplier Onboarding",
+      "status": "Approved",
+      "approved_by": "CEO",
+      "date": "2025-03-20"
+    },
+    {
+      "approval_id": "AP-002",
+      "request_type": "Capital Expenditure",
+      "status": "Pending",
+      "approved_by": "Board",
+      "date": "2025-04-05"
+    }
+  ]
+}
