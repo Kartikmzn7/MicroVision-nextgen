@@ -1,4 +1,5 @@
-{
+"audit_binder": {
+  "summary": "Audit binder includes GST receipts, auditor sign-off, and factory certificates for compliance verification.",
   "gst_receipts": [
     {
       "receipt_id": "GST-INV-2025-001",
@@ -15,7 +16,7 @@
     "auditor_name": "CA Anil Sharma",
     "firm": "Sharma & Associates",
     "sign_off_date": "2025-03-20",
-    "file": "audit/signoff-2025.pdf"
+    "report_file": "audit/signoff-2025.pdf"
   },
   "factory_certificates": [
     {
@@ -26,7 +27,7 @@
     },
     {
       "certificate": "Pollution Control NOC",
-      "issued_by": "PCB",
+      "issued_by": "Pollution Control Board",
       "valid_till": "2028-06-30",
       "file": "certificates/pcb-noc.pdf"
     },
