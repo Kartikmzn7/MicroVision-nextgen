@@ -10,7 +10,13 @@
     "status": "100% modules integrated"
   },
   "compliance_proof": {
-    "certificates": ["ISO 9001", "ISO 14001", "Factories Act License", "PCB NOC", "Fire Safety NOC"],
+    "certificates": [
+      "ISO 9001",
+      "ISO 14001",
+      "Factories Act License",
+      "PCB NOC",
+      "Fire Safety NOC"
+    ],
     "audit_sign_off": "Auditor CA Anil Sharma, Sharma & Associates, 2025-03-20"
   },
   "dashboards": {
@@ -27,5 +33,14 @@
     "Warranty Claim",
     "Recycling & Carbon Update"
   ],
-  "recruiter_message": "This ERP system is audit-ready, globally benchmarked, and demonstrates end-to-end compliance with authentic evidence."
+  "recruiter_message": "This ERP system is audit-ready, globally benchmarked, and demonstrates end-to-end compliance with authentic evidence.",
+  "errors": {
+    "completeness": [
+      "Infrastructure (Tax Engine, Bank Accounts)",
+      "Production (ERP, Production Dates, Lot Logs)",
+      "Service (Warranty, Recerting, TI Tickets)",
+      "Governance (Board Meetings, Compliance Logs)",
+      "Alerts (Notifications, Alerts)"
+    ]
+  }
 }
