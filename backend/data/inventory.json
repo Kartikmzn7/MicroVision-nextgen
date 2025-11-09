@@ -1,0 +1,8 @@
+{
+  "stock_levels": [
+    { "item_id": "BAT001", "name": "Lithium Cell", "quantity": 500, "warehouse": "Delhi" },
+    { "item_id": "BAT002", "name": "Nickel Module", "quantity": 300, "warehouse": "Ghaziabad" }
+  ],
+  "valuation_method": "FIFO",
+  "audit_status": "Compliant"
+}
