@@ -1,5 +1,14 @@
 # 🇮🇳 MicroVision Next Gen ERP System
 
+# 🇮🇳 🇮🇳 🇮🇳 🇮🇳 
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Last Updated](https://img.shields.io/badge/updated-Nov_2025-orange)
+![Made in India](https://img.shields.io/badge/origin-🇮🇳_India-red)
+![Audit Grade](https://img.shields.io/badge/audit-grade_A-green)
+![Recruiter Ready](https://img.shields.io/badge/recruiter-ready_ERP-purple)
+
 **Company:** MicroVision Next Gen Battery  
 **Project:** Recruiter‑Ready ERP System with Audit‑Grade Compliance  
 **Built in India • Designed for the World**
