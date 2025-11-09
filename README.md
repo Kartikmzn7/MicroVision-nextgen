@@ -30,13 +30,38 @@
 
 ## 📊 Modules Implemented
 
-*(unchanged — already perfect)*
+- **Finance** – GST receipts, balance sheet, audit controls  
+- **Billing** – Dealer invoices, warranty claims, GST auto-calculation  
+- **Governance** – State-wise GST logic, compliance mandates  
+- **Production** – OEE, lot logs, factory compliance  
+- **Inventory** – Stock levels, warehouse mapping, FIFO valuation  
+- **Marketing** – Campaigns, customer segmentation, ROI analytics  
+- **Automation** – Workflows, triggers, auto-validation  
+- **HR** – Attendance, leaves, auto-validation  
+- **Legal & Compliance** – ISO certificates, regulatory mandates  
+- **Cyber Evidence** – Battery passport, recycling, repair mandates  
+- **Journey** – End-to-end ERP walkthrough (order → production → invoice → dispatch → payment)  
+- **Dashboard** – Real-time reporting, graphical interface  
+- **Audit** – Retrospective KPIs (production, finance, compliance)
 
 ---
 
 ## 📂 Evidence & Audit Files
 
-*(unchanged — already perfect)*
+- `docs/audit/binder.json` – Full compliance binder  
+- `finance/GST-receipts.pdf` – GST receipts  
+- `production-receipts/compliance-reports.pdf` – Production compliance reports  
+- `inventory/stock-levels.pdf` – Inventory stock levels  
+- `hr/attendance-records.pdf` – HR attendance records  
+- `legal/iso-certificates.pdf` – Legal ISO certificates  
+- `certification/ISO-9001-grade-tracker.pdf` – ISO impact grade tracker  
+- `journey-dashboard-snapshot.pdf` – HR module dashboard snapshot  
+- `hr-module-evidence.pdf` – HR module evidence  
+- `build-mandate.json` – Battery passport build mandate  
+- `legacy/END-dot-compliance.pdf` – Final compliance summary  
+- `legacy/hr-binder.json` – Battery passport binder  
+
+📄 **Validated with binder.json and evidence.json for audit-grade traceability.**
 
 ---
 
@@ -47,30 +72,58 @@ It supports functions across finance, HR, compliance, procurement, inventory, ma
 Every module is backed by **authentic evidence, traceable compliance, and recruiter-focused KPIs**.  
 It demonstrates **technical depth + business impact**, making it a **legacy-grade project** for enterprise software roles.
 
-> ✅ Real-world deployment on Vercel + Render  
-> ✅ RESTful backend with modular routes  
-> ✅ React frontend with live routing and dashboards  
-> ✅ Binder-verified evidence and ISO-grade compliance  
-> ✅ README polished for recruiter clarity
+✅ Real-world deployment on Vercel + Render  
+✅ RESTful backend with modular routes  
+✅ React frontend with live routing and dashboards  
+✅ Binder-verified evidence and ISO-grade compliance  
+✅ README polished for recruiter clarity
 
 ---
 
 ## 🔗 Connect with Me
 
-*(unchanged — already perfect)*
+📇 **LinkedIn Profile:**  
+[Kartik Choudhary – Full Stack Java Developer (AKTU)](https://www.linkedin.com/in/kartik-choudharyaktu)
+
+📍 Ghaziabad, Uttar Pradesh  
+🎓 B.Tech CSE – Raj Kumar Goel Institute of Technology (AKTU)  
+🛠️ Tech Stack: Java, Spring Boot, React, MySQL, REST APIs  
+📈 Passion: Building scalable ERP systems with audit-grade compliance
+
+💬 Open to internships, enterprise software roles, and full-stack collaborations.
 
 ---
 
 ## 🏗️ Built With India
 
-*(unchanged — already perfect)*
+✅ Made in India  
+✅ Supported for audit-grade traceability  
+✅ Optimized for youth recruitment  
+✅ Compliant with ISO, recruiter, and government mandates  
+✅ Supports battery passport, recycling, and repair mandates  
+✅ Includes HR, finance, inventory, journey, and ISO modules
 
 ---
 
 ## 📌 Status
 
-*(unchanged — already perfect)*
+✅ Audit-Ready  
+✅ Recruiter-Ready  
+✅ Global Benchmark Complete  
+✅ Evidence-Linked  
+✅ Presentation-Polished  
+✅ Hiring-Grade  
+✅ Demo-Ready  
+✅ Binder-Verified  
+✅ Journey-Documented  
+✅ Legacy-Secured  
+✅ PR-Integrated  
+✅ Dashboard-Visualized  
+✅ ISO-Impact  
+✅ Slide-Deck-Ready
 
 ---
 
 ## 📁 Repo Structure Audit
+
+*(You can now add your folder structure here if needed — let me know if you want me to generate it from your repo)*
