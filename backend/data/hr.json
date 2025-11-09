@@ -1,0 +1,10 @@
+{
+  "attendance": [
+    { "worker_id": "W001", "date": "2025-10-01", "status": "Present" },
+    { "worker_id": "W002", "date": "2025-10-01", "status": "Absent" }
+  ],
+  "leave_requests": [
+    { "worker_id": "W001", "from": "2025-10-10", "to": "2025-10-12", "reason": "Medical" }
+  ],
+  "compliance": true
+}
