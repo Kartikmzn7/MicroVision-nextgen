@@ -1,0 +1,33 @@
+{
+  "warranty_claims": [
+    {
+      "claim_id": "WC-001",
+      "battery_id": "BAT-001",
+      "customer_name": "Suresh Gupta",
+      "issue": "Reduced backup time",
+      "claim_date": "2025-03-25",
+      "status": "Resolved",
+      "resolution_file": "claims/WC-001-resolution.pdf"
+    }
+  ],
+  "service_tickets": [
+    {
+      "ticket_id": "ST-001",
+      "raised_by": "Dealer - Delhi",
+      "issue": "ERP invoice mismatch",
+      "date": "2025-03-28",
+      "status": "Closed",
+      "log_file": "tickets/ST-001-log.json"
+    }
+  ],
+  "recycling_requests": [
+    {
+      "request_id": "RR-001",
+      "battery_id": "BAT-002",
+      "customer_name": "Meena Singh",
+      "date": "2025-04-01",
+      "status": "Pending",
+      "report_file": "recycling/RR-001-report.pdf"
+    }
+  ]
+}
