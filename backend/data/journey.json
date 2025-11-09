@@ -1,0 +1,27 @@
+{
+  "order": {
+    "id": "ORD001",
+    "customer": "ABC Energy Ltd",
+    "date": "2025-10-01"
+  },
+  "production": {
+    "batch_id": "PROD001",
+    "status": "Completed",
+    "units": 100
+  },
+  "invoice": {
+    "invoice_id": "INV001",
+    "amount": 500000,
+    "due_date": "2025-10-15"
+  },
+  "dispatch": {
+    "dispatch_id": "DISP001",
+    "location": "Ghaziabad Warehouse",
+    "status": "Shipped"
+  },
+  "payment": {
+    "payment_id": "PAY001",
+    "status": "Received",
+    "date": "2025-10-10"
+  }
+}
