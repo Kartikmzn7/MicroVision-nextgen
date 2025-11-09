@@ -1,0 +1,46 @@
+{
+  "journey": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "customer_order": {
+      "order_id": "ORD-001",
+      "customer": "ABC Energy Solutions",
+      "product": "Lithium-Ion Battery Pack",
+      "quantity": 100,
+      "order_date": "2025-10-01",
+      "file": "journey/ORD-001-order.pdf"
+    },
+    "production_flow": {
+      "batch_id": "PROD-001",
+      "factory": "Ghaziabad Central",
+      "units_produced": 100,
+      "oee": "92%",
+      "file": "journey/PROD-001-production-report.pdf"
+    },
+    "invoice_generation": {
+      "invoice_id": "INV-001",
+      "amount": "₹9,50,000",
+      "gst": "18%",
+      "file": "journey/INV-001-invoice.pdf"
+    },
+    "compliance_check": {
+      "gst_verified": true,
+      "battery_passport": "BP-001",
+      "recycling_proof": "REC-001",
+      "file": "journey/ORD-001-compliance.pdf"
+    },
+    "dashboard_snapshot": {
+      "production_kpi": "OEE 92%, Defect Rate 0.8%",
+      "finance_kpi": "ROIC 15%, Cash Flow +12%",
+      "marketing_kpi": "ROAS 320%, CAC ₹120",
+      "file": "journey/dashboard-snapshot.pdf"
+    },
+    "audit_controls": {
+      "traceability": "enabled",
+      "workflow_linkage": "enabled",
+      "evidence_chain": "complete"
+    },
+    "status": "Recruiter-Ready",
+    "last_updated": "2025-11-09"
+  }
+}
