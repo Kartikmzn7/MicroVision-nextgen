@@ -1,0 +1,50 @@
+{
+  "oee_metrics": {
+    "plant": "Ghaziabad Central",
+    "oee_percent": 92,
+    "first_pass_yield_percent": 95,
+    "downtime_hours": 12,
+    "report_file": "production/oee-report-2025Q1.pdf"
+  },
+  "machine_logs": [
+    {
+      "log_id": "ML-001",
+      "machine": "Battery Assembly Line A",
+      "date": "2025-03-20",
+      "issue": "Temperature spike detected",
+      "status": "Resolved",
+      "resolution_file": "production/ML-001-resolution.pdf"
+    },
+    {
+      "log_id": "ML-002",
+      "machine": "Battery Testing Rig B",
+      "date": "2025-04-05",
+      "issue": "Calibration overdue",
+      "status": "Pending",
+      "resolution_file": null
+    }
+  ],
+  "licenses": [
+    {
+      "license_id": "LIC-001",
+      "type": "Factories Act License",
+      "issued_by": "Govt of Uttar Pradesh",
+      "valid_till": "2026-03-31",
+      "file": "production/factory-license.pdf"
+    },
+    {
+      "license_id": "LIC-002",
+      "type": "Pollution Control NOC",
+      "issued_by": "UPPCB",
+      "valid_till": "2026-12-31",
+      "file": "production/pcb-noc.pdf"
+    },
+    {
+      "license_id": "LIC-003",
+      "type": "Fire Safety Certificate",
+      "issued_by": "Ghaziabad Fire Dept",
+      "valid_till": "2026-06-30",
+      "file": "production/fire-safety.pdf"
+    }
+  ]
+}
