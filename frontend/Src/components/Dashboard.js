@@ -15,18 +15,30 @@ function Dashboard() {
   }, []);
 
   return (
-    <div>
-      <h2>Finance</h2>
-      <pre>{JSON.stringify(financeData, null, 2)}</pre>
+    <div className="grid">
+      <div className="card">
+        <h2>Finance</h2>
+        <div className="sub">Live JSON from backend</div>
+        <pre>{JSON.stringify(financeData, null, 2)}</pre>
+      </div>
 
-      <h2>HR</h2>
-      <pre>{JSON.stringify(hrData, null, 2)}</pre>
+      <div className="card">
+        <h2>HR</h2>
+        <div className="sub">Attendance and leave data</div>
+        <pre>{JSON.stringify(hrData, null, 2)}</pre>
+      </div>
 
-      <h2>Inventory</h2>
-      <pre>{JSON.stringify(inventoryData, null, 2)}</pre>
+      <div className="card">
+        <h2>Inventory</h2>
+        <div className="sub">Stock levels and valuation</div>
+        <pre>{JSON.stringify(inventoryData, null, 2)}</pre>
+      </div>
 
-      <h2>Journey</h2>
-      <pre>{JSON.stringify(journeyData, null, 2)}</pre>
+      <div className="card">
+        <h2>Journey</h2>
+        <div className="sub">Order → Production → Invoice → Dispatch → Payment</div>
+        <pre>{JSON.stringify(journeyData, null, 2)}</pre>
+      </div>
     </div>
   );
 }
