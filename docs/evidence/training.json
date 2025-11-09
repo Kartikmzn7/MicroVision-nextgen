@@ -1,49 +1,66 @@
 {
-  "performance_tests": [
+  "version": "v1.0",
+  "generated_on": "2025-11-09",
+  "evidence": [
     {
-      "test_id": "PT-001",
-      "battery_id": "BAT-001",
-      "result": "Pass",
-      "date": "2025-03-01",
-      "report_file": "tests/PT-001-report.pdf"
+      "file": "finance/GST-receipts.pdf",
+      "type": "GST proof",
+      "linked_module": "finance"
     },
     {
-      "test_id": "PT-002",
-      "battery_id": "BAT-002",
-      "result": "Pass",
-      "date": "2025-03-05",
-      "report_file": "tests/PT-002-report.pdf"
-    }
-  ],
-  "dr_drills": [
-    {
-      "drill_id": "DR-001",
-      "type": "Fire Safety",
-      "date": "2025-02-20",
-      "log_file": "logs/DR-001-fire.log"
+      "file": "production-receipts/compliance-reports.pdf",
+      "type": "Factory compliance",
+      "linked_module": "production"
     },
     {
-      "drill_id": "DR-002",
-      "type": "Data Recovery",
-      "date": "2025-02-25",
-      "log_file": "logs/DR-002-dr.log"
-    }
-  ],
-  "training_records": [
-    {
-      "worker_name": "Ravi Kumar",
-      "iti_certificate_no": "ITI-IND-2022-0001",
-      "completion_date": "2025-01-12"
+      "file": "inventory/stock-levels.pdf",
+      "type": "Inventory snapshot",
+      "linked_module": "inventory"
     },
     {
-      "worker_name": "Meena Singh",
-      "iti_certificate_no": "ITI-IND-2021-0007",
-      "completion_date": "2025-02-01"
+      "file": "hr/attendance-records.pdf",
+      "type": "HR attendance",
+      "linked_module": "hr"
+    },
+    {
+      "file": "hr-module-evidence.pdf",
+      "type": "HR module demo",
+      "linked_module": "hr"
+    },
+    {
+      "file": "certification/ISO-9001-grade-tracker.pdf",
+      "type": "ISO certification",
+      "linked_module": "legal_compliance"
+    },
+    {
+      "file": "legal/iso-certificates.pdf",
+      "type": "Legal ISO proof",
+      "linked_module": "legal_compliance"
+    },
+    {
+      "file": "build-mandate.json",
+      "type": "Battery passport mandate",
+      "linked_module": "cyber_evidence"
+    },
+    {
+      "file": "legacy/hr-binder.json",
+      "type": "Battery passport binder",
+      "linked_module": "cyber_evidence"
+    },
+    {
+      "file": "legacy/END-dot-compliance.pdf",
+      "type": "Final compliance summary",
+      "linked_module": "legacy"
+    },
+    {
+      "file": "journey-dashboard-snapshot.pdf",
+      "type": "ERP dashboard snapshot",
+      "linked_module": "journey"
+    },
+    {
+      "file": "audit/red-flag-KPIs.pdf",
+      "type": "Audit KPIs",
+      "linked_module": "audit"
     }
-  ],
-  "adoption_kpis": {
-    "modules_used_percent": 92,
-    "tickets_closed_percent": 88,
-    "training_completion_percent": 100
-  }
+  ]
 }
