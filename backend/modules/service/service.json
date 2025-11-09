@@ -1,60 +1,47 @@
 {
-  "dealer_sales": [
-    {
-      "sale_id": "DS-001",
-      "dealer_name": "Sharma Batteries",
-      "location": "Delhi",
-      "product_id": "BAT-001",
-      "quantity": 50,
-      "sale_date": "2025-04-12",
-      "gst_applied": "CGST+SGST",
-      "invoice_file": "service/DS-001-invoice.pdf"
+  "service": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "dealer_invoices": [
+      {
+        "invoice_id": "DS-001",
+        "customer": "ABC Energy Solutions",
+        "amount": "₹1,20,000",
+        "gst_applied": "18%",
+        "file": "service/DS-001-invoice.pdf"
+      },
+      {
+        "invoice_id": "DS-002",
+        "customer": "GreenTech Distributors",
+        "amount": "₹95,000",
+        "gst_applied": "18%",
+        "file": "service/DS-002-invoice.pdf"
+      }
+    ],
+    "warranty_claims": [
+      {
+        "claim_id": "WC-001",
+        "customer": "ABC Energy Solutions",
+        "issue": "Battery replacement under warranty",
+        "resolution": "Approved",
+        "file": "service/WC-001-resolution.pdf"
+      }
+    ],
+    "gst_logic": {
+      "auto_calculation": true,
+      "rate": "18%",
+      "state_logic": [
+        { "state": "Uttar Pradesh", "sgst": "9%", "cgst": "9%" },
+        { "state": "Delhi", "sgst": "9%", "cgst": "9%" },
+        { "state": "Maharashtra", "sgst": "9%", "cgst": "9%" }
+      ]
     },
-    {
-      "sale_id": "DS-002",
-      "dealer_name": "Rathore Energy",
-      "location": "Jaipur",
-      "product_id": "BAT-002",
-      "quantity": 30,
-      "sale_date": "2025-04-15",
-      "gst_applied": "IGST",
-      "invoice_file": "service/DS-002-invoice.pdf"
-    }
-  ],
-  "warranty_claims": [
-    {
-      "claim_id": "WC-001",
-      "customer_name": "Amit Verma",
-      "product_id": "BAT-001",
-      "purchase_date": "2025-01-10",
-      "claim_date": "2025-04-20",
-      "issue": "Battery not charging",
-      "status": "Approved",
-      "resolution_file": "service/WC-001-resolution.pdf"
+    "audit_controls": {
+      "invoice_traceability": "enabled",
+      "warranty_resolution": "logged",
+      "gst_auto_check": "enabled"
     },
-    {
-      "claim_id": "WC-002",
-      "customer_name": "Neha Singh",
-      "product_id": "BAT-002",
-      "purchase_date": "2025-02-05",
-      "claim_date": "2025-05-01",
-      "issue": "Low backup",
-      "status": "Pending",
-      "resolution_file": null
-    }
-  ],
-  "service_rules": [
-    {
-      "rule_id": "SR-001",
-      "trigger": "Warranty claim approved",
-      "action": "Generate replacement order",
-      "status": "Active"
-    },
-    {
-      "rule_id": "SR-002",
-      "trigger": "Dealer sale recorded",
-      "action": "Auto-apply GST logic",
-      "status": "Active"
-    }
-  ]
+    "status": "Compliant",
+    "last_updated": "2025-11-09"
+  }
 }
