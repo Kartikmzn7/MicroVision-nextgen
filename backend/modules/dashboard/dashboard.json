@@ -21,6 +21,7 @@
     "carbon_footprint_kgco2": 12.5,
     "recycling_rate_percent": 90,
     "energy_efficiency_index": "A+",
+    
     "certificate_file": "dashboard/sustainability-kpi-2025Q1.pdf"
   }
 }
