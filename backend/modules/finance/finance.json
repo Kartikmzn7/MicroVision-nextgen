@@ -1,47 +1,33 @@
 {
-  "bank_accounts": [
-    {
-      "account_id": "AC-001",
-      "account_holder": "MicroVision Pvt Ltd",
-      "bank_name": "State Bank of India",
-      "branch": "Ghaziabad Industrial Area",
-      "ifsc": "SBIN0001234",
-      "account_number": "123456789012",
-      "account_type": "Current",
-      "gst_linked": true,
-      "proof_file": "finance/AC-001-bank-proof.pdf"
+  "finance": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "gst_records": [
+      {
+        "receipt_id": "GST-001",
+        "quarter": "Q1-2025",
+        "amount": "₹1,20,000",
+        "rate": "18%",
+        "file": "finance/GST-receipts.pdf"
+      }
+    ],
+    "balance_sheet": {
+      "quarter": "Q1-2025",
+      "gross_margin": "45%",
+      "cash_flow": "+12%",
+      "roic": "15%",
+      "file": "finance/balance-sheet-2025Q1.pdf"
     },
-    {
-      "account_id": "AC-002",
-      "account_holder": "MicroVision Pvt Ltd",
-      "bank_name": "HDFC Bank",
-      "branch": "Delhi Connaught Place",
-      "ifsc": "HDFC0005678",
-      "account_number": "987654321098",
-      "account_type": "Current",
-      "gst_linked": true,
-      "proof_file": "finance/AC-002-bank-proof.pdf"
-    }
-  ],
-  "gst_filings": [
-    {
-      "filing_id": "GST-2025-03",
-      "period": "March 2025",
-      "status": "Filed",
-      "file": "finance/GST-2025-03.pdf"
+    "audit_controls": {
+      "tax_logic": "auto-calculated",
+      "compliance_check": "enabled",
+      "audit_trail": "enabled"
     },
-    {
-      "filing_id": "GST-2025-04",
-      "period": "April 2025",
-      "status": "Filed",
-      "file": "finance/GST-2025-04.pdf"
-    }
-  ],
-  "financial_summary": {
-    "gross_margin_percent": 28,
-    "cash_flow_inr": 1200000,
-    "audit_status": "Verified",
-    "auditor": "CA Anil Sharma",
-    "report_file": "finance/audit-summary-2025.pdf"
+    "evidence_files": [
+      "finance/GST-receipts.pdf",
+      "finance/balance-sheet-2025Q1.pdf"
+    ],
+    "status": "Audit-Ready",
+    "last_updated": "2025-11-09"
   }
 }
