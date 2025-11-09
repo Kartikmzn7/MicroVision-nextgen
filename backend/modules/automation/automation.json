@@ -1,48 +1,41 @@
 {
-  "workflows": [
-    {
-      "workflow_id": "WF-001",
-      "name": "Auto GST Application",
-      "trigger": "Dealer sale recorded",
-      "action": "Apply SGST/CGST/IGST based on state",
-      "status": "Active",
-      "proof_file": "automation/WF-001-gst-proof.pdf"
+  "automation": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "workflows": [
+      {
+        "workflow_id": "AUTO-001",
+        "name": "Procurement Approval Flow",
+        "trigger": "Purchase request > ₹50,000",
+        "action": "Auto-route to Finance + Governance",
+        "file": "automation/procurement-approval-flow.pdf"
+      },
+      {
+        "workflow_id": "AUTO-002",
+        "name": "Dealer Invoice GST Auto-Check",
+        "trigger": "Invoice upload",
+        "action": "Auto-calculate GST (18%) and validate state logic",
+        "file": "automation/dealer-gst-check.pdf"
+      },
+      {
+        "workflow_id": "AUTO-003",
+        "name": "Warranty Claim Escalation",
+        "trigger": "Claim unresolved > 7 days",
+        "action": "Auto-escalate to Service Manager",
+        "file": "automation/warranty-escalation.pdf"
+      }
+    ],
+    "audit_controls": {
+      "workflow_traceability": "enabled",
+      "auto_validation": "enabled",
+      "audit_trail": "enabled"
     },
-    {
-      "workflow_id": "WF-002",
-      "name": "Warranty Replacement",
-      "trigger": "Warranty claim approved",
-      "action": "Generate replacement order automatically",
-      "status": "Active",
-      "proof_file": "automation/WF-002-warranty-proof.pdf"
-    }
-  ],
-  "audit_trails": [
-    {
-      "trail_id": "AT-001",
-      "event": "GST auto-applied",
-      "timestamp": "2025-04-12T10:30:00",
-      "user": "System",
-      "log_file": "automation/AT-001-log.pdf"
-    },
-    {
-      "trail_id": "AT-002",
-      "event": "Warranty replacement order generated",
-      "timestamp": "2025-04-20T14:15:00",
-      "user": "System",
-      "log_file": "automation/AT-002-log.pdf"
-    }
-  ],
-  "automation_rules": [
-    {
-      "rule_id": "AR-001",
-      "description": "If stock below threshold → auto purchase requisition",
-      "status": "Active"
-    },
-    {
-      "rule_id": "AR-002",
-      "description": "If compliance certificate expired → send alert to governance",
-      "status": "Active"
-    }
-  ]
+    "evidence_files": [
+      "automation/procurement-approval-flow.pdf",
+      "automation/dealer-gst-check.pdf",
+      "automation/warranty-escalation.pdf"
+    ],
+    "status": "Recruiter-Ready",
+    "last_updated": "2025-11-09"
+  }
 }
