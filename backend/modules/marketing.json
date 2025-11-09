@@ -1,0 +1,59 @@
+{
+  "marketing": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "campaigns": [
+      {
+        "campaign_id": "MKT-001",
+        "name": "Green Energy Awareness",
+        "budget": "₹2,50,000",
+        "roas": "320%",
+        "conversion_rate": "11%",
+        "file": "marketing/MKT-001-campaign-report.pdf"
+      },
+      {
+        "campaign_id": "MKT-002",
+        "name": "Dealer Expansion Drive",
+        "budget": "₹1,80,000",
+        "roas": "280%",
+        "conversion_rate": "9%",
+        "file": "marketing/MKT-002-campaign-report.pdf"
+      }
+    ],
+    "customer_segmentation": [
+      {
+        "segment": "Industrial Clients",
+        "share": "40%",
+        "avg_order_value": "₹1,20,000"
+      },
+      {
+        "segment": "Retail Dealers",
+        "share": "35%",
+        "avg_order_value": "₹95,000"
+      },
+      {
+        "segment": "Export Partners",
+        "share": "25%",
+        "avg_order_value": "₹2,50,000"
+      }
+    ],
+    "analytics": {
+      "cac": "₹120",
+      "roas": "320%",
+      "conversion_rate": "11%",
+      "customer_lifetime_value": "₹4,50,000"
+    },
+    "evidence_files": [
+      "marketing/MKT-001-campaign-report.pdf",
+      "marketing/MKT-002-campaign-report.pdf",
+      "marketing/segmentation-analysis-2025Q1.pdf"
+    ],
+    "audit_controls": {
+      "campaign_traceability": "enabled",
+      "roi_validation": "enabled",
+      "audit_trail": "enabled"
+    },
+    "status": "Recruiter-Ready",
+    "last_updated": "2025-11-09"
+  }
+}
