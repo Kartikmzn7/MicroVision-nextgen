@@ -1,45 +1,38 @@
 {
-  "board_meetings": [
-    {
-      "meeting_id": "BM-001",
-      "date": "2025-03-15",
-      "agenda": "Q1 Financial Review + Factory Expansion",
-      "status": "Completed",
-      "minutes_file": "governance/BM-001-minutes.pdf",
-      "resolution_file": "governance/BM-001-resolution.pdf",
-      "signed_by": "CA Anil Sharma"
+  "governance": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "taxation_rules": {
+      "gst": {
+        "rate": "18%",
+        "state_logic": [
+          { "state": "Uttar Pradesh", "sgst": "9%", "cgst": "9%" },
+          { "state": "Delhi", "sgst": "9%", "cgst": "9%" },
+          { "state": "Maharashtra", "sgst": "9%", "cgst": "9%" }
+        ],
+        "igst": "18%"
+      }
     },
-    {
-      "meeting_id": "BM-002",
-      "date": "2025-06-10",
-      "agenda": "Sustainability Audit + ISO Compliance",
-      "status": "Completed",
-      "minutes_file": "governance/BM-002-minutes.pdf",
-      "resolution_file": "governance/BM-002-resolution.pdf",
-      "signed_by": "CA Anil Sharma"
-    }
-  ],
-  "compliance_certificates": [
-    {
-      "certificate_id": "ISO-9001",
-      "type": "Quality Management",
-      "issued_by": "Bureau Veritas",
-      "valid_till": "2027-12-31",
-      "file": "governance/ISO-9001.pdf"
+    "compliance_mandates": [
+      "Factory Act Compliance",
+      "Pollution Control Board (PCB) NOC",
+      "Fire Safety Certificate",
+      "ISO 9001 & ISO 14001 Standards",
+      "Battery Waste Management Rules"
+    ],
+    "audit_controls": {
+      "user_access": "role-based",
+      "data_retention": "7 years",
+      "audit_trail": "enabled",
+      "last_audit": "2025-10-15"
     },
-    {
-      "certificate_id": "ISO-14001",
-      "type": "Environmental Management",
-      "issued_by": "TÜV Rheinland",
-      "valid_till": "2027-12-31",
-      "file": "governance/ISO-14001.pdf"
-    },
-    {
-      "certificate_id": "FACTORY-LICENSE",
-      "type": "Factories Act License",
-      "issued_by": "Govt of Rajasthan",
-      "valid_till": "2026-03-31",
-      "file": "governance/factory-license.pdf"
-    }
-  ]
+    "evidence_files": [
+      "legacy/SAFE-001-pcb-noc.pdf",
+      "legacy/SAFE-002-fire-license.pdf",
+      "legacy/TR-001-iso9001.pdf",
+      "legacy/TR-002-fire-safety.pdf"
+    ],
+    "status": "Compliant",
+    "last_updated": "2025-11-09"
+  }
 }
