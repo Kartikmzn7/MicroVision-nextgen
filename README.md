@@ -32,8 +32,29 @@ It integrates **finance, production, service, governance, automation, compliance
 
 ---
 
-## 🧪 Demo Journey
-Raw Material → Production → Dealer Sale → Tax Auto-Apply → Warranty Claim → Recycling
+
+## 🧪 Demo Journey Preview
+
+1. Raw Material Procurement → `demo-journeys/journey.json`
+2. Production with IoT Logs → `backend/modules/automation/automation.json`
+3. Dealer Sale with Auto GST → `tax-engine.json`
+4. Warranty Claim → `service.json`
+5. Recycling & Carbon Update → `legacy/evidence.json`
+
+🚀 Just published my audit-ready, globally benchmarked ERP system for battery manufacturing!
+
+✅ Finance, Service, Governance, Automation
+✅ Tax Engine with auto SGST/CGST/IGST
+✅ ISO, Factory License, Pollution NOC, Fire Safety
+✅ Dashboards: Production, Financial, Marketing, Sustainability
+✅ Demo Journey: Raw Material → Recycling
+✅ Recruiter-ready structure with authentic evidence
+
+🔗 GitHub: github.com/kartik-choudharyaktu/MicroVision-nextgen
+
+Built with Spring Boot, React, MySQL — designed for real-world deployment and legacy impact 💼⚡
+
+📸 Screenshots: See `docs/legacy/evidence.json` and `docs/audit/binder.json`
 
 ---
 
