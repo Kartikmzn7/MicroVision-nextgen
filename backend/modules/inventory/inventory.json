@@ -1,0 +1,60 @@
+{
+  "stock_levels": [
+    {
+      "product_id": "BAT-001",
+      "product_name": "Lithium-Ion Battery 12V",
+      "warehouse": "Ghaziabad Central",
+      "current_stock": 450,
+      "reorder_threshold": 300,
+      "reorder_quantity": 600,
+      "last_updated": "2025-04-10",
+      "auto_reorder_enabled": true
+    },
+    {
+      "product_id": "BAT-002",
+      "product_name": "Lead-Acid Battery 150Ah",
+      "warehouse": "Jaipur Hub",
+      "current_stock": 180,
+      "reorder_threshold": 200,
+      "reorder_quantity": 500,
+      "last_updated": "2025-04-08",
+      "auto_reorder_enabled": false
+    }
+  ],
+  "warehouse_mapping": [
+    {
+      "warehouse_id": "WH-001",
+      "location": "Ghaziabad Central",
+      "capacity_units": 10000,
+      "manager": "Rajeev Mehta",
+      "compliance_certificates": [
+        "fire-safety.pdf",
+        "pcb-noc.pdf"
+      ]
+    },
+    {
+      "warehouse_id": "WH-002",
+      "location": "Jaipur Hub",
+      "capacity_units": 8000,
+      "manager": "Sunita Rathore",
+      "compliance_certificates": [
+        "fire-safety-jaipur.pdf",
+        "pcb-noc-jaipur.pdf"
+      ]
+    }
+  ],
+  "inventory_rules": [
+    {
+      "rule_id": "IR-001",
+      "trigger": "Stock below reorder threshold",
+      "action": "Generate purchase requisition",
+      "status": "Active"
+    },
+    {
+      "rule_id": "IR-002",
+      "trigger": "New product added",
+      "action": "Assign default warehouse",
+      "status": "Active"
+    }
+  ]
+}
