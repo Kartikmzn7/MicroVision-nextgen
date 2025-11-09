@@ -4,96 +4,92 @@
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Last Updated](https://img.shields.io/badge/updated-Nov_2025-orange)
-![Made in India](https://img.shields.io/badge/origin-India-red)
-![Audit Grade](https://img.shields.io/badge/audit-grade_A-green)
-![Recruiter Ready](https://img.shields.io/badge/recruiter-ready-purple)
-![Hiring Ready](https://img.shields.io/badge/hiring-ERP_Developer-blue)
+![Docs](https://img.shields.io/badge/docs-generated-yellow)
+![Journey](https://img.shields.io/badge/journey-complete-green)
+![Origin](https://img.shields.io/badge/origin-India-red)
+![Audit](https://img.shields.io/badge/audit-grade_A-green)
+![Recruiter](https://img.shields.io/badge/recruiter-ready-purple)
 
-**Company:** MicroVision Next Gen Battery  
-**Project:** Recruiter‑Ready ERP System with Audit‑Grade Compliance  
-**Built in India • Designed for the World**
+**Project:** MicroVision Next Gen Battery  
+**System:** Recruiter-Ready ERP System with Audit-Grade Compliance  
+**Built in India – Designed for the Next Generation**
 
 ---
 
 ## 📊 Modules Implemented
 
-- **Finance** → GST receipts, balance sheet, audit controls  
-- **Service** → Dealer invoices, warranty claims, GST auto‑calculation  
-- **Governance** → State‑wise GST logic, compliance mandates  
-- **Production** → OEE, IoT logs, factory compliance  
-- **Inventory** → Stock levels, warehouse mapping, FIFO valuation  
-- **Marketing** → Campaigns, customer segmentation, ROI analytics  
-- **Automation** → Workflows, triggers, auto‑validation  
-- **HR** → Attendance, leaves, auto-validation  
-- **Legacy Evidence** → ISO certificates, recycling proof, battery passport compliance  
-- **Journey** → End‑to‑end ERP walkthrough (order → production → invoice → compliance → dashboard)  
-- **Dashboard** → Recruiter‑ready KPIs (production, finance, marketing, HR, sustainability)
+- **Finance** – GST receipts, balance sheet, audit controls  
+- **Billing** – Dealer invoices, warranty claims, GST auto-calculation  
+- **Governance** – State-wise GST logic, compliance mandates  
+- **Production** – OEE, lot logs, factory compliance  
+- **Inventory** – Stock levels, warehouse mapping, FIFO valuation  
+- **Marketing** – Campaigns, customer segmentation, ROI analytics  
+- **Automation** – Workflows, triggers, auto-validation  
+- **HR** – Attendance, leaves, auto-validation  
+- **Legal & Compliance** – ISO certificates, regulatory mandates  
+- **Cyber Evidence** – Battery passport, recycling, repair mandates  
+- **Journey** – End-to-end ERP walkthrough (order → production → invoice → dispatch → payment)  
+- **Dashboard** – Real-time reporting, graphical interface  
+- **Audit** – Retrospective KPIs (production, finance, compliance)
 
 ---
 
 ## 📂 Evidence & Audit Files
 
-- `docs/audit/binder.json` — Full compliance binder  
-- `finance/GST-receipts.pdf` — GST receipts  
-- `production/oee-report-2025Q1.pdf` — Factory KPIs  
-- `marketing/MKT-001-campaign-report.pdf` — Campaign ROI  
-- `legacy/TR-001-iso9001.pdf` — ISO 9001 certification  
-- `legacy/REC-001-recycling.pdf` — Battery recycling compliance  
-- `legacy/BP-001-passport.pdf` — Battery passport proof  
-- `journey/ORD-001-compliance.pdf` — End‑to‑end compliance proof  
-- `journey/dashboard-snapshot.pdf` — Recruiter dashboard snapshot  
-- `hr/HR-001-attendance-proof.pdf` — HR module evidence  
-- `certification/ISO9001-report.pdf` — ISO impact proof  
-- `legacy/BR-001-binder.json` — Battery passport binder  
-- `legacy/END-001-compliance.pdf` — Final compliance summary  
+- `docs/audit/binder.json` – Full compliance binder  
+- `finance/GST-receipts.pdf` – GST receipts  
+- `production-receipts/compliance-reports.pdf` – Production compliance reports  
+- `inventory/stock-levels.pdf` – Inventory stock levels  
+- `hr/attendance-records.pdf` – HR attendance records  
+- `legal/iso-certificates.pdf` – Legal ISO certificates  
+- `certification/ISO-9001-grade-tracker.pdf` – ISO impact grade tracker  
+- `journey-dashboard-snapshot.pdf` – HR module dashboard snapshot  
+- `hr-module-evidence.pdf` – HR module evidence  
+- `build-mandate.json` – Battery passport build mandate  
+- `legacy/END-dot-compliance.pdf` – Final compliance summary  
+- `legacy/hr-binder.json` – Battery passport binder  
+
+📄 **Validated with binder.json and evidence.json for audit-grade traceability.**
 
 ---
 
 ## 🧠 Recruiter Message
 
-This ERP system is **audit‑ready, recruiter‑ready, and globally benchmarked**.  
-It supports **enterprise functions** across finance, governance, production, inventory, marketing, HR, automation, and compliance.  
-Every module is backed by **authentic evidence, compliance logic, and recruiter‑focused KPIs**.  
+This ERP system is **audit-ready, recruiter-ready, and globally benchmarked**.  
+It supports functions across finance, HR, compliance, procurement, inventory, marketing, automation, and collaboration.  
+Every module is backed by **authentic evidence, traceable compliance, and recruiter-focused KPIs**.  
 It demonstrates **technical depth + business impact**, making it a **legacy-grade project** for enterprise software roles.
 
 ---
 
-## 🏁 Built With Pride
+## 🏗️ Built With India
 
-- 🇮🇳 Made in India  
-- 🧠 Designed for audit-grade traceability  
-- 📈 Optimized for recruiter impact  
-- 🔒 Compliant with ISO, GST, and government mandates  
-- 🌱 Includes sustainability, recycling, and battery passport logic  
-- 📄 Validated with binder.json, journey.json, and evidence.json  
+✅ Made in India  
+✅ Supported for audit-grade traceability  
+✅ Optimized for youth recruitment  
+✅ Compliant with ISO, recruiter, and government mandates  
+✅ Supports battery passport, recycling, and repair mandates  
+✅ Includes HR, finance, inventory, journey, and ISO modules
 
 ---
 
 ## 📌 Status
 
-✅ Audit‑Ready  
-✅ Recruiter‑Ready  
+✅ Audit-Ready  
+✅ Recruiter-Ready  
 ✅ Global Benchmark Complete  
-✅ Evidence‑Linked  
-✅ Presentation‑Polished  
-✅ Hiring‑Grade  
-✅ Demo‑Ready  
-✅ Binder‑Verified  
-✅ Journey‑Documented  
-✅ Legacy‑Secured  
-✅ HR‑Integrated  
-✅ Dashboard‑Visualized  
-✅ ISO‑Impact  
-✅ Slide‑Deck‑Ready  
+✅ Evidence-Linked  
+✅ Presentation-Polished  
+✅ Hiring-Grade  
+✅ Demo-Ready  
+✅ Binder-Verified  
+✅ Journey-Documented  
+✅ Legacy-Secured  
+✅ PR-Integrated  
+✅ Dashboard-Visualized  
+✅ ISO-Impact  
+✅ Slide-Deck-Ready
 
 ---
 
 ## 📁 Repo Structure Audit
-
-
-
----
-
----
-
