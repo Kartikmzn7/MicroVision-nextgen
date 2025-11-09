@@ -1,41 +1,40 @@
-"audit_binder": {
-  "summary": "Audit binder includes GST receipts, auditor sign-off, and factory certificates for compliance verification.",
-  "gst_receipts": [
-    {
-      "receipt_id": "GST-INV-2025-001",
-      "date": "2025-03-10",
-      "file": "receipts/GST-INV-2025-001.pdf"
+{
+  "binder": {
+    "company": "MicroVision Next Gen Battery",
+    "project": "MicroVision Next Gen ERP System",
+    "auditor": {
+      "name": "CA Nitin Sharma",
+      "firm": "Sharma & Associates",
+      "signature_file": "docs/audit/signature-anil-sharma.pdf"
     },
-    {
-      "receipt_id": "GST-INV-2025-002",
-      "date": "2025-03-15",
-      "file": "receipts/GST-INV-2025-002.pdf"
-    }
-  ],
-  "auditor_sign_off": {
-    "auditor_name": "CA Anil Sharma",
-    "firm": "Sharma & Associates",
-    "sign_off_date": "2025-03-20",
-    "report_file": "audit/signoff-2025.pdf"
-  },
-  "factory_certificates": [
-    {
-      "certificate": "Factories Act License",
-      "issued_by": "Factories Authority",
-      "valid_till": "2030-12-31",
-      "file": "certificates/factory-license.pdf"
-    },
-    {
-      "certificate": "Pollution Control NOC",
-      "issued_by": "Pollution Control Board",
-      "valid_till": "2028-06-30",
-      "file": "certificates/pcb-noc.pdf"
-    },
-    {
-      "certificate": "Fire Safety NOC",
-      "issued_by": "Fire Department",
-      "valid_till": "2027-03-31",
-      "file": "certificates/fire-noc.pdf"
-    }
-  ]
+    "modules_covered": [
+      "finance",
+      "service",
+      "governance",
+      "automation",
+      "marketing",
+      "inventory",
+      "production",
+      "legacy",
+      "dashboard"
+    ],
+    "evidence_files": [
+      "finance/GST-receipts.pdf",
+      "production/oee-report-2025Q1.pdf",
+      "service/DS-001-invoice.pdf",
+      "legacy/TR-001-iso9001.pdf",
+      "legacy/REC-001-recycling.pdf",
+      "dashboard/production-kpi-2025Q1.pdf"
+    ],
+    "compliance_certifications": [
+      "ISO 9001",
+      "ISO 14001",
+      "Factory Act License",
+      "PCB NOC",
+      "Fire Safety Certificate"
+    ],
+    "demo_journey_file": "demo-journeys/journey.json",
+    "status": "Audit-Ready",
+    "last_updated": "2025-11-09"
+  }
 }
