@@ -5,9 +5,9 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Last Updated](https://img.shields.io/badge/updated-Nov_2025-orange)
-![Made in India](https://img.shields.io/badge/origin-🇮🇳_India-red)
+![Made in India](https://img.shields.io/badge/origin-India-red)
 ![Audit Grade](https://img.shields.io/badge/audit-grade_A-green)
-![Recruiter Ready](https://img.shields.io/badge/recruiter-ready_ERP-purple)
+![Recruiter Ready](https://img.shields.io/badge/recruiter-ready-purple)
 
 **Company:** MicroVision Next Gen Battery  
 **Project:** Recruiter‑Ready ERP System with Audit‑Grade Compliance  
@@ -25,6 +25,7 @@
 - **Marketing** → Campaigns, customer segmentation, ROI analytics  
 - **Automation** → Workflows, triggers, auto‑validation  
 - **Legacy Evidence** → ISO certificates, recycling proof, battery passport compliance  
+- **Journey** → End‑to‑end ERP walkthrough (order → production → invoice → compliance → dashboard)  
 - **Dashboard** → Recruiter‑ready KPIs (production, finance, marketing, sustainability)
 
 ---
@@ -38,13 +39,15 @@
 - `legacy/TR-001-iso9001.pdf` — ISO 9001 certification  
 - `legacy/REC-001-recycling.pdf` — Battery recycling compliance  
 - `legacy/BP-001-passport.pdf` — Battery passport proof  
+- `journey/ORD-001-compliance.pdf` — End‑to‑end compliance proof  
+- `journey/dashboard-snapshot.pdf` — Recruiter dashboard snapshot  
 
 ---
 
 ## 🧠 Recruiter Message
 
 This ERP system is **audit‑ready, recruiter‑ready, and globally benchmarked**.  
-It supports **enterprise functions** across finance, governance, production, inventory, marketing, and automation.  
+It supports **enterprise functions** across finance, governance, production, inventory, marketing, automation, and compliance.  
 Every module is backed by **authentic evidence, compliance logic, and recruiter‑focused KPIs**.  
 It demonstrates **technical depth + business impact**, making it a **legacy-grade project** for enterprise software roles.
 
@@ -70,10 +73,4 @@ It demonstrates **technical depth + business impact**, making it a **legacy-grad
 
 ---
 
-## 🔗 GitHub & Contact
-
-> 📁 GitHub Repo: `github.com/yourusername/MicroVision-nextgen`  
-> 📧 Contact: `your.email@example.com`  
-> 📸 Presentation: Available on request
-
----
+## 📁 Step 20: Repo Structure Audit
