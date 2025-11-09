@@ -1,0 +1,40 @@
+{
+  "gst_receipts": [
+    {
+      "receipt_id": "GST-INV-2025-001",
+      "date": "2025-03-10",
+      "file": "receipts/GST-INV-2025-001.pdf"
+    },
+    {
+      "receipt_id": "GST-INV-2025-002",
+      "date": "2025-03-15",
+      "file": "receipts/GST-INV-2025-002.pdf"
+    }
+  ],
+  "auditor_sign_off": {
+    "auditor_name": "CA Anil Sharma",
+    "firm": "Sharma & Associates",
+    "sign_off_date": "2025-03-20",
+    "file": "audit/signoff-2025.pdf"
+  },
+  "factory_certificates": [
+    {
+      "certificate": "Factories Act License",
+      "issued_by": "Factories Authority",
+      "valid_till": "2030-12-31",
+      "file": "certificates/factory-license.pdf"
+    },
+    {
+      "certificate": "Pollution Control NOC",
+      "issued_by": "PCB",
+      "valid_till": "2028-06-30",
+      "file": "certificates/pcb-noc.pdf"
+    },
+    {
+      "certificate": "Fire Safety NOC",
+      "issued_by": "Fire Department",
+      "valid_till": "2027-03-31",
+      "file": "certificates/fire-noc.pdf"
+    }
+  ]
+}
