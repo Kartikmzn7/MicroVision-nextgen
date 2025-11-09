@@ -8,6 +8,15 @@
       "claim_date": "2025-03-25",
       "status": "Resolved",
       "resolution_file": "claims/WC-001-resolution.pdf"
+    },
+    {
+      "claim_id": "WC-002",
+      "battery_id": "BAT-002",
+      "customer_name": "Meena Singh",
+      "issue": "Charging failure",
+      "claim_date": "2025-04-02",
+      "status": "Pending",
+      "resolution_file": null
     }
   ],
   "service_tickets": [
@@ -18,6 +27,14 @@
       "date": "2025-03-28",
       "status": "Closed",
       "log_file": "tickets/ST-001-log.json"
+    },
+    {
+      "ticket_id": "ST-002",
+      "raised_by": "Dealer - Ghaziabad",
+      "issue": "Warranty claim not syncing",
+      "date": "2025-04-03",
+      "status": "Open",
+      "log_file": "tickets/ST-002-log.json"
     }
   ],
   "recycling_requests": [
@@ -28,6 +45,14 @@
       "date": "2025-04-01",
       "status": "Pending",
       "report_file": "recycling/RR-001-report.pdf"
+    },
+    {
+      "request_id": "RR-002",
+      "battery_id": "BAT-003",
+      "customer_name": "Ravi Kumar",
+      "date": "2025-04-06",
+      "status": "Completed",
+      "report_file": "recycling/RR-002-report.pdf"
     }
   ]
 }
