@@ -1,0 +1,33 @@
+{
+  "battery_passport": {
+    "passport_id": "BP-001",
+    "battery_id": "BAT-001",
+    "issued_date": "2025-03-30",
+    "issuer": "Global Battery Alliance",
+    "file": "legacy/battery-passport-BAT-001.pdf"
+  },
+  "sustainability_branding": {
+    "branding_id": "SB-001",
+    "campaign": "Green Energy Drive 2025",
+    "materials": ["posters/green-drive.png", "videos/green-drive.mp4"],
+    "impact_metrics": {
+      "reach": 50000,
+      "engagement_percent": 12,
+      "conversion_percent": 4
+    }
+  },
+  "audit_screenshots": [
+    {
+      "screenshot_id": "AS-001",
+      "module": "ERP Tax Engine",
+      "file": "screenshots/tax-engine.png",
+      "date": "2025-03-15"
+    },
+    {
+      "screenshot_id": "AS-002",
+      "module": "ERP Service Module",
+      "file": "screenshots/service-module.png",
+      "date": "2025-03-20"
+    }
+  ]
+}
