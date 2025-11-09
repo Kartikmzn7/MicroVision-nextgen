@@ -1,0 +1,58 @@
+{
+  "notifications": [
+    {
+      "notification_id": "NT-001",
+      "type": "Production Alert",
+      "message": "OEE dropped below 85% in Ghaziabad Plant",
+      "date": "2025-03-25",
+      "status": "Resolved",
+      "resolution_file": "alerts/NT-001-resolution.pdf"
+    },
+    {
+      "notification_id": "NT-002",
+      "type": "Finance Alert",
+      "message": "GST auto-filing pending for March 2025",
+      "date": "2025-03-28",
+      "status": "Pending",
+      "resolution_file": null
+    },
+    {
+      "notification_id": "NT-003",
+      "type": "Governance Alert",
+      "message": "Board meeting minutes BM-002 not uploaded",
+      "date": "2025-06-15",
+      "status": "Closed",
+      "resolution_file": "alerts/NT-003-resolution.pdf"
+    }
+  ],
+  "system_alerts": [
+    {
+      "alert_id": "AL-001",
+      "module": "Service",
+      "issue": "Warranty claim WC-002 unresolved for 7 days",
+      "severity": "High",
+      "date": "2025-04-05",
+      "status": "Open",
+      "log_file": "alerts/AL-001-log.json"
+    },
+    {
+      "alert_id": "AL-002",
+      "module": "Governance",
+      "issue": "Board meeting minutes BM-002 not uploaded",
+      "severity": "Medium",
+      "date": "2025-06-15",
+      "status": "Closed",
+      "log_file": "alerts/AL-002-log.json"
+    },
+    {
+      "alert_id": "AL-003",
+      "module": "Finance",
+      "issue": "Cash flow forecast not generated for Q2",
+      "severity": "Low",
+      "date": "2025-04-10",
+      "status": "Resolved",
+      "log_file": "alerts/AL-003-log.json"
+    }
+  ]
+}
+
