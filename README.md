@@ -126,4 +126,58 @@ It demonstrates **technical depth + business impact**, making it a **legacy-grad
 
 ## 📁 Repo Structure Audit
 
-*(You can now add your folder structure here if needed — let me know if you want me to generate it from your repo)*
+
+MicroVision-nextgen/
+├── frontend/                        # React-based UI with routing and dashboards
+│   ├── public/                     # Static assets (favicon, index.html)
+│   ├── src/
+│   │   ├── components/            # Finance, HR, Inventory, Journey, NavBar
+│   │   ├── pages/                 # Route-level views (Dashboard, etc.)
+│   │   ├── App.js                 # Main app with Router and layout
+│   │   ├── index.js               # React root render
+│   │   └── index.css              # Global styles (dark theme, layout)
+│   └── package.json               # Frontend dependencies and scripts
+
+├── backend/                        # Node.js + Express REST API
+│   ├── routes/
+│   │   ├── finance.js             # Finance module routes
+│   │   ├── hr.js                  # HR module routes
+│   │   ├── inventory.js           # Inventory module routes
+│   │   └── journey.js             # Journey module routes
+│   ├── middleware/                # Error handling, auth, CORS
+│   ├── models/                    # DB schemas (if using MongoDB/MySQL)
+│   ├── server.js                  # Express app entry point
+│   └── package.json               # Backend dependencies and scripts
+
+├── docs/                           # Audit and compliance documentation
+│   └── audit/
+│       └── binder.json            # Full compliance binder
+
+├── certification/                 # ISO and regulatory files
+│   └── ISO-9001-grade-tracker.pdf
+
+├── legacy/                        # Final compliance and journey evidence
+│   ├── END-dot-compliance.pdf
+│   └── hr-binder.json
+
+├── hr/                            # HR module evidence
+│   └── attendance-records.pdf
+
+├── finance/                       # Finance module evidence
+│   └── GST-receipts.pdf
+
+├── inventory/                     # Inventory module evidence
+│   └── stock-levels.pdf
+
+├── production-receipts/          # Production compliance reports
+│   └── compliance-reports.pdf
+
+├── legal/                         # Legal certificates
+│   └── iso-certificates.pdf
+
+├── build-mandate.json            # Battery passport build mandate
+
+├── journey-dashboard-snapshot.pdf
+├── hr-module-evidence.pdf
+
+└── README.md                      # Recruiter-ready documentation
