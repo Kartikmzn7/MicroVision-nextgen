@@ -1,53 +1,47 @@
 {
-  "ai_predictions": [
+  "workflows": [
     {
-      "prediction_id": "AI-001",
-      "module": "Production",
-      "use_case": "Predictive Maintenance",
-      "input_data": "IoT sensor logs from battery assembly line",
-      "prediction": "Machine downtime risk in next 7 days",
-      "confidence": "92%",
-      "generated_on": "2025-03-25",
-      "report_file": "automation/AI-001-predictive-maintenance.pdf"
+      "workflow_id": "WF-001",
+      "name": "Auto GST Application",
+      "trigger": "Dealer sale recorded",
+      "action": "Apply SGST/CGST/IGST based on state",
+      "status": "Active",
+      "proof_file": "automation/WF-001-gst-proof.pdf"
     },
     {
-      "prediction_id": "AI-002",
-      "module": "Finance",
-      "use_case": "Cash Flow Forecasting",
-      "input_data": "ERP financial transactions, GST filings",
-      "prediction": "Positive cash flow ₹15,00,000 for Q2 2025",
-      "confidence": "88%",
-      "generated_on": "2025-04-01",
-      "report_file": "automation/AI-002-cashflow-forecast.pdf"
+      "workflow_id": "WF-002",
+      "name": "Warranty Replacement",
+      "trigger": "Warranty claim approved",
+      "action": "Generate replacement order automatically",
+      "status": "Active",
+      "proof_file": "automation/WF-002-warranty-proof.pdf"
+    }
+  ],
+  "audit_trails": [
+    {
+      "trail_id": "AT-001",
+      "event": "GST auto-applied",
+      "timestamp": "2025-04-12T10:30:00",
+      "user": "System",
+      "log_file": "automation/AT-001-log.pdf"
     },
     {
-      "prediction_id": "AI-003",
-      "module": "Marketing",
-      "use_case": "Customer Churn Prediction",
-      "input_data": "Dealer sales + service tickets",
-      "prediction": "5% churn risk in Tier-2 dealers",
-      "confidence": "85%",
-      "generated_on": "2025-04-10",
-      "report_file": "automation/AI-003-churn-analysis.pdf"
+      "trail_id": "AT-002",
+      "event": "Warranty replacement order generated",
+      "timestamp": "2025-04-20T14:15:00",
+      "user": "System",
+      "log_file": "automation/AT-002-log.pdf"
     }
   ],
   "automation_rules": [
     {
       "rule_id": "AR-001",
-      "trigger": "GST filing deadline missed",
-      "action": "Send auto-alert to Finance Head",
+      "description": "If stock below threshold → auto purchase requisition",
       "status": "Active"
     },
     {
       "rule_id": "AR-002",
-      "trigger": "Warranty claim unresolved > 7 days",
-      "action": "Escalate to Service Manager",
-      "status": "Active"
-    },
-    {
-      "rule_id": "AR-003",
-      "trigger": "OEE drops below 85%",
-      "action": "Notify Production Supervisor",
+      "description": "If compliance certificate expired → send alert to governance",
       "status": "Active"
     }
   ]
