@@ -21,7 +21,7 @@ app.use('/hr', require('./routes/hr'));
 app.use('/inventory', require('./routes/inventory'));
 
 // Future modules (uncomment when ready)
-// app.use('/journey', require('./routes/journey'));
+app.use('/journey', require('./routes/journey'));
 
 app.listen(PORT, () => {
   console.log(`MicroVision ERP backend running on port ${PORT}`);
