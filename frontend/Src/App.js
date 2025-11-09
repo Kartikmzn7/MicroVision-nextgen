@@ -6,7 +6,7 @@ import HR from './components/HR';
 import Inventory from './components/Inventory';
 import Journey from './components/Journey';
 import NavBar from './components/NavBar';
-import './index.css'; // ensure styles are applied
+import './index.css'; // Global styles
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
       <div className="container">
         <NavBar />
         <header className="page-title">
-          MicroVision ERP Dashboard <span className="badge">LIVE</span>
+          <h1>
+            MicroVision ERP Dashboard <span className="badge">LIVE</span>
+          </h1>
         </header>
         <main>
           <Routes>
