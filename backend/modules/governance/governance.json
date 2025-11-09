@@ -2,49 +2,44 @@
   "board_meetings": [
     {
       "meeting_id": "BM-001",
-      "date": "2025-03-05",
-      "agenda": "Quarterly performance review and compliance updates",
-      "minutes_file": "meetings/BM-001-minutes.pdf",
-      "approved_by": ["CEO", "CFO", "Compliance Officer"]
+      "date": "2025-03-15",
+      "agenda": "Q1 Financial Review + Factory Expansion",
+      "status": "Completed",
+      "minutes_file": "governance/BM-001-minutes.pdf",
+      "resolution_file": "governance/BM-001-resolution.pdf",
+      "signed_by": "CA Anil Sharma"
     },
     {
       "meeting_id": "BM-002",
       "date": "2025-06-10",
-      "agenda": "Expansion plan and sustainability targets",
-      "minutes_file": "meetings/BM-002-minutes.pdf",
-      "approved_by": ["CEO", "Board Members"]
+      "agenda": "Sustainability Audit + ISO Compliance",
+      "status": "Completed",
+      "minutes_file": "governance/BM-002-minutes.pdf",
+      "resolution_file": "governance/BM-002-resolution.pdf",
+      "signed_by": "CA Anil Sharma"
     }
   ],
-  "compliance_logs": [
+  "compliance_certificates": [
     {
-      "log_id": "CL-001",
-      "date": "2025-03-15",
-      "compliance_type": "GST Filing",
-      "status": "Submitted",
-      "file": "compliance/GST-2025-03.pdf"
+      "certificate_id": "ISO-9001",
+      "type": "Quality Management",
+      "issued_by": "Bureau Veritas",
+      "valid_till": "2027-12-31",
+      "file": "governance/ISO-9001.pdf"
     },
     {
-      "log_id": "CL-002",
-      "date": "2025-04-01",
-      "compliance_type": "Factory Safety Audit",
-      "status": "Passed",
-      "file": "compliance/factory-safety-2025.pdf"
-    }
-  ],
-  "approvals": [
-    {
-      "approval_id": "AP-001",
-      "request_type": "New Supplier Onboarding",
-      "status": "Approved",
-      "approved_by": "CEO",
-      "date": "2025-03-20"
+      "certificate_id": "ISO-14001",
+      "type": "Environmental Management",
+      "issued_by": "TÜV Rheinland",
+      "valid_till": "2027-12-31",
+      "file": "governance/ISO-14001.pdf"
     },
     {
-      "approval_id": "AP-002",
-      "request_type": "Capital Expenditure",
-      "status": "Pending",
-      "approved_by": "Board",
-      "date": "2025-04-05"
+      "certificate_id": "FACTORY-LICENSE",
+      "type": "Factories Act License",
+      "issued_by": "Govt of Rajasthan",
+      "valid_till": "2026-03-31",
+      "file": "governance/factory-license.pdf"
     }
   ]
 }
