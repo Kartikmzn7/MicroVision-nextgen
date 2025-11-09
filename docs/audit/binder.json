@@ -2,39 +2,69 @@
   "binder": {
     "company": "MicroVision Next Gen Battery",
     "project": "MicroVision Next Gen ERP System",
-    "auditor": {
-      "name": "CA Nitin Sharma",
-      "firm": "Sharma & Associates",
-      "signature_file": "docs/audit/signature-anil-sharma.pdf"
+    "modules_summary": [
+      {
+        "module": "Finance",
+        "status": "Audit-Ready",
+        "evidence": ["finance/GST-receipts.pdf"]
+      },
+      {
+        "module": "Service",
+        "status": "Audit-Ready",
+        "evidence": ["service/warranty-claims-2025Q1.pdf"]
+      },
+      {
+        "module": "Governance",
+        "status": "Audit-Ready",
+        "evidence": ["governance/compliance-mandates.pdf"]
+      },
+      {
+        "module": "Production",
+        "status": "Audit-Ready",
+        "evidence": ["production/oee-report-2025Q1.pdf"]
+      },
+      {
+        "module": "Inventory",
+        "status": "Audit-Ready",
+        "evidence": ["inventory/stock-report-2025Q1.pdf"]
+      },
+      {
+        "module": "Marketing",
+        "status": "Recruiter-Ready",
+        "evidence": ["marketing/MKT-001-campaign-report.pdf"]
+      },
+      {
+        "module": "Automation",
+        "status": "Audit-Ready",
+        "evidence": ["automation/procurement-approval-flow.pdf"]
+      },
+      {
+        "module": "Legacy Evidence",
+        "status": "Audit-Ready",
+        "evidence": [
+          "legacy/TR-001-iso9001.pdf",
+          "legacy/REC-001-recycling.pdf",
+          "legacy/BP-001-passport.pdf"
+        ]
+      },
+      {
+        "module": "Journey",
+        "status": "Recruiter-Ready",
+        "evidence": ["journey/ORD-001-compliance.pdf"]
+      },
+      {
+        "module": "Dashboard",
+        "status": "Recruiter-Ready",
+        "evidence": ["journey/dashboard-snapshot.pdf"]
+      }
+    ],
+    "evidence_chain": "Complete",
+    "audit_controls": {
+      "traceability": "enabled",
+      "module_linkage": "verified",
+      "evidence_validation": "complete"
     },
-    "modules_covered": [
-      "finance",
-      "service",
-      "governance",
-      "automation",
-      "marketing",
-      "inventory",
-      "production",
-      "legacy",
-      "dashboard"
-    ],
-    "evidence_files": [
-      "finance/GST-receipts.pdf",
-      "production/oee-report-2025Q1.pdf",
-      "service/DS-001-invoice.pdf",
-      "legacy/TR-001-iso9001.pdf",
-      "legacy/REC-001-recycling.pdf",
-      "dashboard/production-kpi-2025Q1.pdf"
-    ],
-    "compliance_certifications": [
-      "ISO 9001",
-      "ISO 14001",
-      "Factory Act License",
-      "PCB NOC",
-      "Fire Safety Certificate"
-    ],
-    "demo_journey_file": "demo-journeys/journey.json",
-    "status": "Audit-Ready",
+    "status": "Audit-Grade Binder Ready",
     "last_updated": "2025-11-09"
   }
 }
