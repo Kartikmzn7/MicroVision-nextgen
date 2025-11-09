@@ -44,6 +44,9 @@
 - `journey/ORD-001-compliance.pdf` — End‑to‑end compliance proof  
 - `journey/dashboard-snapshot.pdf` — Recruiter dashboard snapshot  
 - `hr/HR-001-attendance-proof.pdf` — HR module evidence  
+- `certification/ISO9001-report.pdf` — ISO impact proof  
+- `legacy/BR-001-binder.json` — Battery passport binder  
+- `legacy/END-001-compliance.pdf` — Final compliance summary  
 
 ---
 
@@ -63,7 +66,7 @@ It demonstrates **technical depth + business impact**, making it a **legacy-grad
 - 📈 Optimized for recruiter impact  
 - 🔒 Compliant with ISO, GST, and government mandates  
 - 🌱 Includes sustainability, recycling, and battery passport logic  
-- 🧪 Validated with binder.json, journey.json, and evidence.json  
+- 📄 Validated with binder.json, journey.json, and evidence.json  
 
 ---
 
@@ -81,7 +84,16 @@ It demonstrates **technical depth + business impact**, making it a **legacy-grad
 ✅ Legacy‑Secured  
 ✅ HR‑Integrated  
 ✅ Dashboard‑Visualized  
+✅ ISO‑Impact  
+✅ Slide‑Deck‑Ready  
 
 ---
 
-## 📁 Step 20: Repo Structure Audit
+## 📁 Repo Structure Audit
+
+
+
+---
+
+---
+
