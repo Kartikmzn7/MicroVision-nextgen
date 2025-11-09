@@ -1,70 +1,50 @@
 {
-  "binder": {
-    "company": "MicroVision Next Gen Battery",
-    "project": "MicroVision Next Gen ERP System",
-    "modules_summary": [
-      {
-        "module": "Finance",
-        "status": "Audit-Ready",
-        "evidence": ["finance/GST-receipts.pdf"]
-      },
-      {
-        "module": "Service",
-        "status": "Audit-Ready",
-        "evidence": ["service/warranty-claims-2025Q1.pdf"]
-      },
-      {
-        "module": "Governance",
-        "status": "Audit-Ready",
-        "evidence": ["governance/compliance-mandates.pdf"]
-      },
-      {
-        "module": "Production",
-        "status": "Audit-Ready",
-        "evidence": ["production/oee-report-2025Q1.pdf"]
-      },
-      {
-        "module": "Inventory",
-        "status": "Audit-Ready",
-        "evidence": ["inventory/stock-report-2025Q1.pdf"]
-      },
-      {
-        "module": "Marketing",
-        "status": "Recruiter-Ready",
-        "evidence": ["marketing/MKT-001-campaign-report.pdf"]
-      },
-      {
-        "module": "Automation",
-        "status": "Audit-Ready",
-        "evidence": ["automation/procurement-approval-flow.pdf"]
-      },
-      {
-        "module": "Legacy Evidence",
-        "status": "Audit-Ready",
-        "evidence": [
-          "legacy/TR-001-iso9001.pdf",
-          "legacy/REC-001-recycling.pdf",
-          "legacy/BP-001-passport.pdf"
-        ]
-      },
-      {
-        "module": "Journey",
-        "status": "Recruiter-Ready",
-        "evidence": ["journey/ORD-001-compliance.pdf"]
-      },
-      {
-        "module": "Dashboard",
-        "status": "Recruiter-Ready",
-        "evidence": ["journey/dashboard-snapshot.pdf"]
-      }
+  "version": "v1.0",
+  "generated_on": "2025-11-09",
+  "verified_by": "MicroVision Audit Engine",
+  "modules": {
+    "finance": [
+      "finance/GST-receipts.pdf"
     ],
-    "evidence_chain": "Complete",
-    "audit_controls": {
-      "traceability": "enabled",
-      "module_linkage": "verified",
-      "evidence_validation": "complete"
-    },
-    "status": "Audit-Grade Binder Ready",
-    "last_updated": "2025-11-09"
-  }
+    "billing": [
+      "billing/invoice-samples.pdf"
+    ],
+    "governance": [
+      "legal/statewise-GST-logic.pdf"
+    ],
+    "production": [
+      "production-receipts/compliance-reports.pdf"
+    ],
+    "inventory": [
+      "inventory/stock-levels.pdf"
+    ],
+    "marketing": [
+      "marketing/MKT-001-campaign-report.pdf"
+    ],
+    "automation": [
+      "automation/trigger-flow.pdf"
+    ],
+    "hr": [
+      "hr/attendance-records.pdf",
+      "hr-module-evidence.pdf"
+    ],
+    "legal_compliance": [
+      "legal/iso-certificates.pdf",
+      "certification/ISO-9001-grade-tracker.pdf"
+    ],
+    "cyber_evidence": [
+      "build-mandate.json",
+      "legacy/hr-binder.json"
+    ],
+    "journey": [
+      "journey-dashboard-snapshot.pdf"
+    ],
+    "audit": [
+      "audit/red-flag-KPIs.pdf"
+    ],
+    "legacy": [
+      "legacy/END-dot-compliance.pdf"
+    ]
+  },
+  "summary": "All modules are linked to authentic evidence files. Verified for audit-grade traceability."
 }
