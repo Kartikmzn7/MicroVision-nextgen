@@ -57,39 +57,4 @@
 
 This ERP system is **audit-ready, recruiter-ready, and globally benchmarked**.  
 It supports functions across finance, HR, compliance, procurement, inventory, marketing, automation, and collaboration.  
-Every module is backed by **authentic evidence, traceable compliance, and recruiter-focused KPIs**.  
-It demonstrates **technical depth + business impact**, making it a **legacy-grade project** for enterprise software roles.
-
----
-
-## 🏗️ Built With India
-
-✅ Made in India  
-✅ Supported for audit-grade traceability  
-✅ Optimized for youth recruitment  
-✅ Compliant with ISO, recruiter, and government mandates  
-✅ Supports battery passport, recycling, and repair mandates  
-✅ Includes HR, finance, inventory, journey, and ISO modules
-
----
-
-## 📌 Status
-
-✅ Audit-Ready  
-✅ Recruiter-Ready  
-✅ Global Benchmark Complete  
-✅ Evidence-Linked  
-✅ Presentation-Polished  
-✅ Hiring-Grade  
-✅ Demo-Ready  
-✅ Binder-Verified  
-✅ Journey-Documented  
-✅ Legacy-Secured  
-✅ PR-Integrated  
-✅ Dashboard-Visualized  
-✅ ISO-Impact  
-✅ Slide-Deck-Ready
-
----
-
-## 📁 Repo Structure Audit
+Every module is backed by **
