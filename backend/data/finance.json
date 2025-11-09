@@ -1,0 +1,8 @@
+{
+  "gst_receipts": [
+    { "id": "GST001", "amount": 12000, "date": "2025-10-01" },
+    { "id": "GST002", "amount": 8500, "date": "2025-10-05" }
+  ],
+  "audit_status": "Grade A",
+  "compliance": true
+}
