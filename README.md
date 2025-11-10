@@ -49,6 +49,15 @@
 - `legacy/hr-binder.json`  
 📄 Validated with binder.json and evidence.json for audit-grade traceability
 
+
+- feat(frontend): add Finance dashboard with GST evidence  
+- fix(inventory): correct FIFO valuation logic  
+- docs(compliance): add ISO-9001-grade-tracker.pdf  
+- chore(repo): update binder.json for audit traceability  
+- deploy(vercel): push frontend build with dark theme  
+- deploy(render): backend API live with modular routes  
+- refactor(hr): optimize attendance validation workflow  
+- test(finance): add unit tests for GST auto-calculation
 ---
 
 ## 🧠 Recruiter Message
