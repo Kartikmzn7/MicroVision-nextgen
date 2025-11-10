@@ -1,0 +1,7 @@
+{
+  "finance": ["GST-receipts.pdf", "stock-ledger.json"],
+  "hr": ["attendance-records.pdf", "exit-interviews.pdf"],
+  "compliance": ["ISO-9001-grade-tracker.pdf", "END-dot-compliance.pdf"],
+  "journey": ["journey-dashboard-snapshot.pdf"],
+  "binder": "binder.json"
+}
