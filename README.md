@@ -227,3 +227,52 @@ MicroVision-nextgen/
 ├── journey-dashboard-snapshot.pdf
 ├── hr-module-evidence.pdf
 └── README.md                      # Recruiter-ready documentation
+
+
+
+---
+
+## 📸 Screenshots Preview
+Visual walkthrough available in `/screenshots` folder:
+- Finance dashboard  
+- HR attendance module  
+- ERP journey flow  
+- Inventory stock levels  
+- ISO compliance tracker  
+
+---
+
+## 🎯 Governance
+- CONTRIBUTING.md → Commit rules, PR process, audit references  
+- SECURITY.md → Vulnerability reporting, secrets policy, dependency review  
+
+---
+
+## ⚙️ Setup Instructions
+### Backend
+1. Copy `backend/.env.example` to `.env`  
+2. Fill in secrets (DB_URL, JWT_SECRET, etc.)  
+3. Run `npm install` and `npm start`  
+
+### Frontend
+1. Run `npm install`  
+2. Run `npm run build` (Vercel deployment ready)  
+
+---
+
+## 🎨 Branding
+- MIT License included  
+- Custom favicon (`frontend/public/favicon.ico`)  
+- Logo (`frontend/public/logo.png`)  
+
+---
+
+## 📈 Discoverability (Extended)
+✅ Repo description: `Audit-grade ERP | ISO-compliant | Vercel + Render deployed | Built in India 🇮🇳`  
+📂 Recruiter-ready assets available in `/recruiter-ready` (DM drafts, LinkedIn post, resume link)  
+
+---
+
+## 📄 Full Recruiter-Ready Documentation
+📄 Extended documentation available in [FULL-DOCS.md](./FULL-DOCS.md)
+
